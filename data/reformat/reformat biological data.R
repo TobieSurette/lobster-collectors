@@ -63,7 +63,7 @@ r$condition.on.retrieval <- unlist(lapply(r$condition.on.retrieval, fun))
 x <- cbind(x[c("year", "site", "collector")],
            x[, setdiff(names(x), names(r))])
 
-write.table(x, file = "/Users/crustacean/Desktop/lobster-collectors/data/Biological.csv", col.names = TRUE, row.names = FALSE, sep = ",")
-write.table(r, file = "/Users/crustacean/Desktop/lobster-collectors/data/Collectors.csv", col.names = TRUE, row.names = FALSE, sep = ",")
+write.table(x, file = "/Users/crustacean/Desktop/lobster-collectors/data/biological.csv", col.names = TRUE, row.names = FALSE, sep = ",")
+#write.table(r, file = "/Users/crustacean/Desktop/lobster-collectors/data/Collectors.csv", col.names = TRUE, row.names = FALSE, sep = ",")
 
 
