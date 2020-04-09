@@ -1,3 +1,6 @@
+# Define variables to keep in the output:
+vars <- c("year", "site", "longitude", "latitude", "date.deployed", "date.retrieved", "comment")
+
 # Load lobster collector site table:
 x <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/raw/129_Site_Table_08_18.csv", stringsAsFactors = FALSE)
 names(x) <- tolower(names(x))
@@ -20,7 +23,6 @@ x$date.retrieved <- as.character(as.Date(paste0(x$r_year, "-", x$r_month, "-", x
 x$year <- as.numeric(substr(x$date.deployed, 1, 4))
 
 # Remove irrelevant fields:
-vars <- c("year", "site", "longitude", "latitude", "date.deployed", "date.retrieved", "comment")
 x <- x[vars]
 
 write.table(x, file = "/Users/crustacean/Desktop/lobster-collectors/data/site.csv", col.names = TRUE, row.names = FALSE, sep = ",")

@@ -25,7 +25,7 @@ x$sex <- toupper(x$sex)
 x <- x[!is.na(x$size) | x$sex != "", ]
 
 # Clean up comments:
-x$comment <- gsub(",", ";", x$comment)
+#x$comment <- gsub(",", ";", x$comment)
 
 # Load 2008-2018 data:
 y <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/raw/129_Crab_Fish_table_08_18.csv", stringsAsFactors = FALSE)
