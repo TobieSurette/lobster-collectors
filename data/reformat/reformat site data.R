@@ -2,7 +2,7 @@
 vars <- c("year", "site", "longitude", "latitude", "date.deployed", "date.retrieved", "comment")
 
 # Load lobster collector site table:
-x <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/raw/129_Site_Table_08_18.csv", stringsAsFactors = FALSE)
+x <- read.csv("https://raw.github.com/TobieSurette/lobster-collectors/master/data/raw/129_Site_Table_08_18.csv", stringsAsFactors = FALSE)
 names(x) <- tolower(names(x))
 
 # Change field names:
