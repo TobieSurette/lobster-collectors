@@ -1,0 +1,98 @@
+"year","site","longitude","latitude","date.deployed","date.retrieved","comment"
+2008,"Bedeque",NA,NA,"2008-06-09","2008-11-13","Les collecteurs ont été déposés juste à côté du site prévu.  Temperature probe on collector #5.  Les 5 derniers collecteurs n'ont pas de cow tags.  Les runners beaucoup mangé par les verres (toutes les trappes)."
+2008,"Neguac",NA,NA,"2008-06-04","2008-10-20",""
+2008,"Shediac",NA,NA,"2008-06-02","2008-10-25","Collecteurs mis à l'eau le long de la lisse.
+Y'a des barnacles, ils se défont."
+2008,"Caraquet",-64.87483,47.839,"2008-05-22","2008-10-18","Toute 20 pieds entre chaque ligne et 25 à 30 pieds entre chaque ligne, ++ de moule, un peu d'algue et kelp, ++ snails, hermit crabs, petit crabes de roches.  Celles avec du gravel dedans en perdaient beaucoup quand elles étaient flippées.  Coll #5 et #21"
+2008,"Covehead",-63.1631,46.4424,"2008-06-10","2008-10-16","Temperature probe installed on collector no 5
+-No cow tags were installed on last line
+-Les lignes ne sont pas en ordre numérique
+Trap 22 was flipped over so no data is entered in DB."
+2008,"Arisaig",NA,NA,"2008-06-05","2008-10-10","Collecteurs ont été mis à l'eau 2 ligne à la fois en utilisant chaque côté du bateau.  Pas bons résultats, 26/30.  De plus les lignes étaient très proches et parfois entre-croisées.  Collecteur #6 était flippé, alors données n'ont pas été entrées."
+2009,"Covehead",-63.15539943,46.44262011,"2009-07-07","2009-10-01","The first 5 collectors were retrieved on 22/9/2009 and the other 25 on the 1/10/2009, because of boat failure.  Temp probe on 5."
+2009,"Alberton",-63.97061722,46.73965167,"2009-07-08","2009-09-22","Temp probe on 663"
+2009,"Murray Harbour",-62.45490774,46.06394583,"2009-07-09","2009-10-02","Some collectors are considered as being upside down on the bottom, because of their appearance and lack of gravel, data from those were not entered in database; 694, 698, 702, 711, 715, and are coded as \"damaged\"."
+2009,"Arisaig",NA,NA,"2009-07-02","2009-10-16","5 of the collectors were not located; buoys were under water."
+2009,"Skinner's Pond",-64.18624722,46.94249222,"2009-07-17","2009-11-05","Temp probe on collector 763"
+2009,"Nine Mile Creek",-63.22547056,46.10314833,"2009-07-03","2009-09-25","Temp probe on collector 723"
+2009,"Fortune",-62.33817529,46.30033333,"2009-07-03","2009-09-21","Temperature log on collector 636. Collector #647 was not recovered."
+2010,"Fortune",-62.33364,46.30091952,"2010-07-06","2010-09-21","-Big samples:  1808 (deep set), 1787, 1798, 1789, 1778
+-1806-1810 at 70 feet not in DB in separate Excel file.
+-According to field notes all collectors came up well.  
+-Temp probe on 1788.
+-One collectors was not recovered."
+2010,"Covehead",-63.15007333,46.44063889,"2010-07-05","2010-09-22","-Temp. probe on 1729.
+-according to field notes all collectors came up well.
+-Big samples: 1722, 1730, 1733, 1746
+-Three collectors were not recovered."
+2010,"Alberton",-63.96796556,46.73791778,"2010-07-07","2010-09-20","-temp probe on 1823
+-according to field notes all collectors came up well.
+-big samples: 1836, 1824, 1826, 1817"
+2010,"Murray Harbour",-62.45083444,46.06435389,"2010-07-06","2010-09-24","-Temp probe on 175
+-according to field notes all collectors came up well."
+2010,"Nine Mile Creek",-63.22759167,46.09853222,"2010-07-13","2010-10-13","-Temp probe on 1853
+-according to field notes all collectors came up well"
+2010,"Skinner's Pond",-64.187125,46.94177167,"2010-07-14","2010-09-29","-Temp probe on 1883
+-according to field notes all collectors came up well
+-Big samples : 1893, 1872, 1884, 1900"
+2010,"Arisaig",NA,NA,"2010-07-02","2010-09-28","-Big samples : 2035, 2056, 2053, 2063"
+2011,"Arisaig",NA,NA,"2011-07-05","2011-10-17","One collector was not recovered.  29 collectors deployed."
+2011,"Skinner's Pond",-64.18731379,46.94125977,"2011-07-22","2011-10-12","Deployed 29 collectors on July 22, 2011 in 22-25 feet of water.  Temperature recorder on #1871.  Picked up 29 collectors Oct 12, 3 were tangled (1896, 1885, 1890), 1890 was lost. According to field notes all collectors came up well."
+2011,"Nine Mile Creek",-63.22457167,46.10268222,"2011-07-13","2011-10-11","Deployed July 13 in 27-30 feet. Temperature recorder on #1869.  Picked up 27 collectors Oct 11. 3 not recovered (1851, 0590, 1848).  According to field notes all collectors came up well."
+2011,"Murray Harbour",-62.45360611,46.06411278,"2011-07-18","2011-10-21","Deployed on July 18, 2011 in 28-30 feet of water. Temperature recorder on #1771.
+  Picked up 26 collectors October 21, 2011. 4 collectors were not recovered ; #'s 1749, 1748, 1751 and 1759. According to field notes all collectors came up well."
+2011,"Covehead",-63.15702444,46.44193722,"2011-07-05","2011-09-30","Deployed on July 5 in 19-23 feet. Temp. recorder on 0556.  Picked up all 30 collectors on Sept 30.  According to field notes all collectors came up well with the exception of # 1746 that flipped when landing on the boat and lost some of its gravel."
+2011,"Alberton",-63.96914778,46.73738611,"2011-07-06","2011-09-26","Deployed 30 collectors on July 6, 2011 in 27-30 feet of water.  Temperature recorder on #0584.
+  Picked up all 30 collectors September 26, 2011. According to field notes all collectors came up well."
+2011,"Fortune",-62.33311143,46.30067524,"2011-07-05","2011-09-29","Deployed on July 5, 30 coll. depth of 29-31' and 5 coll. at 67-70 feet not in DB in separate Excel file (1789, 1803, 1805, 1777, 1780).  Temp. recorder on 1780 and 1785.  Picked up collectors Sept 29.  According to field notes all collectors came up well."
+2012,"Nine Mile Creek",-63.22762167,46.10304222,"2012-07-10","2012-10-10","Deployed on July 10, 2012 in 24-25 feet (#1021 to #1050 with the temperature recorder attached to #1023).  All collectors were retrieved on October 10, 2012 with the exception of #1030.  Locations of individual collectors in attached file."
+2012,"Covehead",-63.15712278,46.44240056,"2012-07-03","2012-09-25","Collectors deployed on July 3, 2012 in 18-21 feet of water. Collector numbers were #1051 to #1080 with the temperature recorder attached to #1053.  All collectors were retrieved September 25, 2012 with the exception of one collector #1077."
+2012,"Skinner's Pond",-64.18717333,46.94149333,"2012-07-16","2012-10-15","Deployed on July 16, 2012 in 25 feet (#1081 to #1110 with the temperature recorder attached to #1083).  28 collectors were retrieved on October 15, 2012 with #1084 and #1087 lost."
+2012,"Murray Harbour",-62.45780611,46.06092778,"2012-07-09","2012-10-17","Temp probe on #1113.  Collectors on North end of grid (corner with coll #1140) buried in sediment.  #1121 came up with ends of door not attached by hog rings and a number of rocks missing."
+2012,"Fortune",-62.33426,46.30019048,"2012-07-03","2012-09-24","Deployed July 3, 2012.  30 coll. at 28-30 feet (#1141 to #1170, temp. recorder on #1143) and 5 collectors at 68 feet not in DB in separate Excel file (#1334 to #1338, temp. recorder on #1336)  All collectors retrieved except for #1147 on Sept. 24, 2012."
+2012,"Alberton",-63.96830222,46.73759444,"2012-07-12","2012-10-02","Deployed on July 12, 2012 in 27-29 feet (#1171 to #1200 with the temperature recorder on #1173).  Retrieved on October 2, 2012 with the exception of #1192 as the bouy line broke with collector half way up to boat."
+2012,"Arisaig",NA,NA,"2012-06-30","2012-10-04","One of the collectors did not have a tag.  It was an extra collector that the fisherman put in the water with the others.  We gave it number 1021 and data is not included in database."
+2013,"Arisaig",NA,NA,"2013-07-01","2013-10-22",""
+2013,"Nine Mile Creek",-63.22664167,46.10224278,"2013-07-15","2013-09-26","collector 952, 946, 934 and 932 no species found.  no lobster for this site.  Site Depth : 24-25 feet.  Temperature probe on #932.  All collectors retrieved."
+2013,"Covehead",-63.16268333,46.44172126,"2013-07-10","2013-09-30","Site depth 24-25 feet.  Only 29 collectors deployed.  Temperature probe on #903."
+2013,"Fortune",-62.33354667,46.30067238,"2013-07-03","2013-09-25","30 collectors at 25-31 feet.  5 collectors at 66 feet are not in DB but in a separate Excel file (#1001-1005), at position 46.3014 -62.3083.  Temperature probes on #1004 and 1008.  Collector #1011 not retrieved.  Collector 1016 considered upside down."
+2013,"Murray Harbour",-62.45755287,46.06123793,"2013-07-04","2013-10-16","Site depth : 23-27 feet.  Temperature probe on #1063.  Collectors #1056 and #1061 were not retrieved.  Most collectors were burried somewhat in sediment.  Data from whole site not useable, was not entered in DB."
+2013,"Alberton",-63.96855944,46.73739111,"2013-07-09","2013-09-24","Site depth 24-30 feet.  Temperature probe on #993.   #999 was not recovered.  Some of the collectors were full of sand 1066, 1067, 1068, 1070 and 1081."
+2013,"Skinner's Pond",-64.18726944,46.94143444,"2013-07-17","2013-10-15","Site depth 25 feet.  Temperature probe on #962, was not retrieved.  3 collectors were not retrieved, 962, 978 and 988."
+2014,"Nine Mile Creek",-63.22777,46.10358944,"2014-07-14","2014-10-03","Temperature probe on collector # 948.  Depth of 21-26 feet of water."
+2014,"Fortune",-62.33277143,46.3007081,"2014-07-03","2014-09-23","Temperature probe on collector # 1003 (9m) and # 1033 (21m)  30 collectors at 25-31 feet, 5 at 66-69 feet ( #1031 to #1035)."
+2014,"Covehead",-63.15894667,46.44136444,"2014-07-07","2014-09-25","Temp probe on #1068 (6m).  Deployed at 22-26 feet."
+2014,"Alberton",-63.97091111,46.73700889,"2014-07-04","2014-10-01","Temperature probe on collector # 1038 (8m)"
+2014,"Cape Egmont",-64.13337056,46.45591333,"2014-07-16","2014-10-07","Temperature probe on collector #947.  Deployed at 20-26 feet."
+2014,"Skinner's Pond",-64.18721556,46.94139778,"2014-07-15","2014-10-14","Temperature probe on collector # 943.  Deployed at 22-25 feet."
+2014,"Murray Harbour",-62.45575333,46.05679778,"2014-07-07","2014-10-16","Temperature probe on collector # 958.  Deployed at 18 -30 feet. These moved a short distance (500m) from previous locations to try and reduce the sedimentation.  Fishers tell us we were in somewhat of a gully previously."
+2015,"Fortune",-62.33249714,46.30119381,"2015-07-07","2015-09-22","30 placed at 28-30' (#621-650); 5 placed at 67-69' (#651-655).  Temp probes on #653 and #623.  Probe #354247 in shallow water.  All collectors retrieved."
+2015,"Covehead",-63.15861556,46.44241111,"2015-07-14","2015-09-24","Depth : 22-23'.  Temp probe on #779.  27 collectors retrieved."
+2015,"Murray Harbour",-62.45542833,46.05700111,"2015-07-07","2015-10-05","Depth : 27-30'. These collectors were moved again a very short distance (500m) from the 2014 location to try to reduce sedimentation.  Temp prob on #658.  2 collectors were not found."
+2015,"Nine Mile Creek",-63.22677056,46.10421944,"2015-07-13","2015-10-15","Depth 24-28.  Temp probe on #748.  16 retrieved on oct. 13 and another 13 retrieved  on oct. 15.  One collector was not retrieved."
+2015,"Alberton",-63.967875,46.734635,"2015-07-09","2015-09-23","Depth : 28-30'. Temp probe on #688.  2 Collectors not retrieved."
+2015,"Skinner's Pond",-64.18723389,46.94115667,"2015-07-10","2015-10-14","Depth 25-29.  Temp probe on #718."
+2015,"Cape Egmont",-64.14545389,46.45635167,"2015-07-17","2015-10-15","Depth 29-33'.  Temp probe on #808."
+2016,"Fortune",-62.33182714,46.30178048,"2016-07-04","2016-09-27","30 collectors at 26-29 feet (temperature recorder on #603) and 5 collectors at 67-69 ft. (#0631-#0635) temperature recorder on #633."
+2016,"Covehead",-63.15829943,46.44095747,"2016-07-14","2016-10-05","in 20-23 feet of water. Temperature recorder attached to #0733. Only 29 collectors were deployed as a miscount was made at the wharf. 26 collectors were retrieved. #'s 0747, #0750 and #0755 being lost"
+2016,"Alberton",-63.96636722,46.73527833,"2016-07-13","2016-10-13","28-30 feet of water. temperature recorder attached to #0703. All collectors except for six,  #0706, #0710, #0711, #0716, #0723 and #0724, were retrieved."
+2016,"Murray Harbour",-62.45655944,46.05479611,"2016-07-07","2016-09-29","Depth: 20-29 ft. Collectors moved 500m from prev. location to help reduce sedimentation. Fishers tell us we were in a gully and that may have been the cause of the sediment collection. Temp probe 668. collector 679 lost."
+2016,"Nine Mile Creek",-63.22711444,46.10392,"2016-07-12","2016-09-28","22-26 feet of water. temperature recorder attached to #0873.  All 30 collectors were retrieved on September 28, 2016. One collector from 2015, #0753, was also retrieved."
+2016,"Skinner's Pond",-64.18636556,46.94222667,"2016-07-06","2016-10-18","in 22-26 feet of water. Temperature probe on 844. 19 collectors retrieved on October 18. Mussel set and small bouys seemed to have led to sunken bouy lines. 841, 851, 857, 858, 859, 861, 862, 863, 866, 868 and 869 were not retrieved."
+2016,"Cape Egmont",-64.13158444,46.45977167,"2016-07-06","2016-10-12","25-28 feet of water.  the temperature recorder attached to #0038."
+2017,"Fortune",-62.33217095,46.30158333,"2017-07-07","2017-09-25","30 collectors at 20-25 feet (temperature recorder on #666) and 5 collectors at 66-72 ft. (temperature recorder on #696). All collectors were retrieved on 25/09/2017"
+2017,"Covehead",NA,NA,"2017-07-06","2017-10-18","Collectors deployed on July 6, 2017 in 21-25 feet of water. Collector numbers were #0634 to #0663 with the temperature recorder attached to #0636. All 30 collectors were retrieved October 18, 2017."
+2017,"Murray Harbour",NA,NA,"2017-07-12","2017-10-04","Collectors were deployed on July 12, 2017 in 20 -27 feet of water. Collector numbers were #0759 to #0788 with the temperature recorder attached to #0761.  All collectors were retrieved on October 4, 2017."
+2017,"Nine Mile Creek",NA,NA,"2017-07-11","2017-09-26","Collectors were deployed on July 11, 2017 in 21-24 feet of water.  Collectors numbers were #0729 to #0758 with the temperature recorder attached to #0731.  All 30 collectors were retrieved on September 26, 2017."
+2017,"Alberton",NA,NA,"2017-07-10","2017-10-10","Collectors deployed on July 10, 2017 in 33-34 feet of water. Collectors numbers were #0699 to #0728 with the temperature recorder attached to #0701.  All collectors were retrieved on October 10, 2017."
+2017,"Skinner's Pond",NA,NA,"2017-07-05","2017-10-17","Collectors deployed on July 5, 2017 in 21-24 feet of water. Collector numbers were #0604 to #0633 with the temperature recorder attached to #0606. All collectors were retrieved on October 17, 2017."
+2017,"Cape Egmont",NA,NA,"2017-07-13","2017-10-12","Collectors were deployed on July 13, 2017 in 23-28 feet of water.  Collector numbers were #0789 to #0818 with the temperature recorder attached to #0796.  All collectors were retrieved on October 12, 2017."
+2017,"Wallace",NA,NA,"2017-07-04","2017-10-19","Retrieved on October 19th 2017."
+2018,"Fortune",NA,NA,"2018-07-03","2018-09-24","30 collectors at a depth of 20-25 ft (temperature recorder on #0190) and 5 collectors at a depth of 66-72 feet (temperature recorder on #0180)"
+2018,"Covehead",NA,NA,"2018-07-10","2018-09-25","Collectors deployed on July 10, 2018 in 20-24 feet of water. Collector numbers were #2373 to #2400 and #2501 to #2502 with the temperature recorder attached to #2380"
+2018,"Murray Harbour",NA,NA,"2018-07-16","2018-10-09","Collectors were deployed on July 16, 2018 in 20 -27 feet of water. Collector numbers were #2563 to #2592 with the temperature recorder attached to #2576.  All collectors were retrieved on October 9, 2018."
+2018,"Nine Mile Creek",NA,NA,"2018-07-10","2018-09-28","Collectors were deployed on July 10, 2018 in 18-23 feet of water.  Collectors numbers were #2503 to #2532 with the temperature recorder attached to #2511.  29 collectors were retrieved on September 28, 2018 with #2527 lost."
+2018,"Alberton",NA,NA,"2018-07-05","2018-10-02","Collectors deployed on July 5, 2018 in 33-37 feet of water. Collectors numbers were #2343 to #2372 with the temperature recorder attached to #2350.  26 collectors were retrieved on October 2, 2018 with #2346, #2349, #2353 and #2369 not recovered."
+2018,"Skinner's Pond",NA,NA,"2018-07-05","2018-10-11","Collectors deployed on July 5, 2018 in 23-25 feet of water. Collector numbers were #2313 to #2342 with the temperature recorder attached to #2320. All collectors were retrieved on October 11, 2018 with the exception of #2332"
+2018,"Cape Egmont",NA,NA,"2018-07-11","2018-10-15","Collectors deployed on July 11, 2018, depth 22-26 ft.  Collector numbers were #2533 to #2562, temperature recorder on #2540.  Collectors retrieved on Oct. 15, 2018. #2533, #2534, #2538, #2544 and #2549 were not recovered."
+2018,"Wallace",NA,NA,"2018-07-10","2018-10-23","10/23/2018"
