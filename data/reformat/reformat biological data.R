@@ -46,7 +46,3 @@ x <- rbind(x[vars], y[vars])
 
 # Output to file:
 write.table(x, file = "/Users/crustacean/Desktop/lobster-collectors/data/biological.csv", col.names = TRUE, row.names = FALSE, sep = ",")
-
-
-
-
