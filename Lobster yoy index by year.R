@@ -6,13 +6,18 @@ jpeg <- FALSE
 # Load data file HERE:
 # read.csv(filename, )
 # data file is assumed to have 'year', 'site' and 'n' fields:
+data <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/Bio_Collector_SummaryData_2008-2019.csv", stringsAsFactors = FALSE)
+names(data) <- tolower(names(data))
+data$n <- data$nyoy
 
+# Treat missing values as zero yoy observations:
+data$n[is.na(data$n)] <- 0
+
+# Site reformats:
 data$site <- gsub("Fortune[12]", "Fortune", data$site) # Combine Fortune sites.
 data$site[data$site %in% c("Skinner's pond", "Skinner's Pond ")] <- "Skinner's Pond"
-data$site.label <- match(data$site, sort(unique(data$site)))
-data$year.label <- match(data$year, sort(unique(data$year)))
 
-# Keep track of years and sites with no observations:
+# Keep track of sites in years with no observations:
 zeroes <- aggregate(list(mean = data[,"n"]), by = data[c("site", "year")], mean)
 zeroes <- zeroes[zeroes$mean == 0, ]
 
@@ -27,7 +32,7 @@ m <- glm(n ~ site * year, family = poisson, data = data)
 # Calculate indices:
 newdata <- aggregate(data["n"], by = data[c("site", "year")], mean)
 newdata <- newdata[newdata$n > 0, 1:2]
-res <- predict(m2, newdata = newdata, se.fit = TRUE)
+res <- predict(m, newdata = newdata, se.fit = TRUE)
 
 # Compile results:
 results <- data.frame(mean = exp(res$fit),

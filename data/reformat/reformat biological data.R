@@ -1,6 +1,20 @@
 # Define variables to keep in the output:
 vars <- c("year", "site", "collector", "species", "sex", "size", "weight", "comment")
 
+# Load 2008-2018 data:
+y <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/raw/129_Crab_Fish_table_08_18.csv", stringsAsFactors = FALSE)
+names(y) <- tolower(names(y))
+
+y$year <- y$r_year
+y$species <- paste(y$genus, y$species)
+y$site <- y$site_name
+y$collector <- y$coll_no
+y$size <- y$length_mm
+y$weight <- y$weight_g
+y$sex <- toupper(y$sex)
+y$sex[y$sex == "2"] <- "F"
+y$comment <- y$comments
+
 # Load 2019 data:
 x <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/raw/Collector Data 2019.csv", stringsAsFactors = FALSE)
 names(x) <- tolower(names(x))
@@ -27,21 +41,7 @@ x <- x[!is.na(x$size) | x$sex != "", ]
 # Clean up comments:
 #x$comment <- gsub(",", ";", x$comment)
 
-# Load 2008-2018 data:
-y <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/raw/129_Crab_Fish_table_08_18.csv", stringsAsFactors = FALSE)
-names(y) <- tolower(names(y))
-
-y$year <- y$r_year
-y$species <- paste(y$genus, y$species)
-y$site <- y$site_name
-y$collector <- y$coll_no
-y$size <- y$length_mm
-y$weight <- y$weight_g
-y$sex <- toupper(y$sex)
-y$sex[y$sex == "2"] <- "F"
-y$comment <- y$comments
-
-# Combine data:
+# Combine data sets:
 x <- rbind(x[vars], y[vars])
 
 # Output to file:
