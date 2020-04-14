@@ -2,7 +2,7 @@
 vars <- c("year", "site", "collector", "condition", "comment")
 
 # Load lobster larvae collector table:
-x <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/raw/129_Collector_Table_08_18.csv", stringsAsFactors = FALSE)
+x <- read.csv("https://raw.github.com/TobieSurette/lobster-collectors/master/data/raw/129_Collector_Table_08_18.csv", stringsAsFactors = FALSE)
 names(x) <- tolower(names(x))
 
 # Change field names:

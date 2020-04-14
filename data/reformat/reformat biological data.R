@@ -2,7 +2,7 @@
 vars <- c("year", "site", "collector", "species", "sex", "size", "weight", "comment")
 
 # Load 2008-2018 data:
-y <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/raw/129_Crab_Fish_table_08_18.csv", stringsAsFactors = FALSE)
+y <- read.csv("https://raw.github.com/TobieSurette/lobster-collectors/master/data/raw/129_Crab_Fish_table_08_18.csv", stringsAsFactors = FALSE)
 names(y) <- tolower(names(y))
 
 y$year <- y$r_year
@@ -16,7 +16,7 @@ y$sex[y$sex == "2"] <- "F"
 y$comment <- y$comments
 
 # Load 2019 data:
-x <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/raw/Collector Data 2019.csv", stringsAsFactors = FALSE)
+x <- read.csv("https://raw.github.com/TobieSurette/lobster-collectors/master/data/raw/Collector%20Data%202019.csv", stringsAsFactors = FALSE)
 names(x) <- tolower(names(x))
 
 # Create year field:
