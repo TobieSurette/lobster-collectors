@@ -1,5 +1,22 @@
 library(EML)
 
+# Define data abstract:
+abstract <- "First-year recruits (i.e. young-of-the-year) of Atlantic lobster (Homarus americanus) and
+             rock crab (Cancer irroratus) were counted and measured using larval settlement collectors
+             at various coastal sampling sites in the southern Gulf of Saint Lawrence, Canada. This project
+             is part of a larger Atlantic Lobster Settlement Index (ALSI) program which spans a large part
+             of the species' western Atlantic range."
+
+abstract <- set_TextType(abstract)
+
+# Define data methods:
+methods <- "Collectors are specially contruncted cages (dimensions?) containing gravel and rock substrate
+            deemed suitable for settlement of American lobster larvae. Sets of 30 collectors are placed at
+            each site. Collectors are deployed in early summer and rertrieved in early fall, before and after the
+            larval settlement period, respectively."
+
+methods <- set_methods(methods)
+
 # Define set of keywords related to study:
 keywords <- list(
     list(keywordThesaurus = "Species",
@@ -12,7 +29,7 @@ keywords <- list(
                         "coastal", "atlantic", "canada"))
 )
 
-# Define people:
+# Define important people:
 Denis <- as_emld(list(given = "Denis", family = "Gagnon",
                       email = "Denis.Gagnon@dfo-mpo.gc.ca",
                       role  = "data manager"))
@@ -41,8 +58,8 @@ DFO_address <- eml$address(deliveryPoint     = "343 University Avenue",
                           postalCode         = "E1C 9B6",
                           country            = "Canada")
 
-contact <- list(individualName        = data.manager$individualName,
-                electronicMailAddress = data.manager$electronicMailAddress,
+contact <- list(individualName        = Denis$individualName,
+                electronicMailAddress = Denis$electronicMailAddress,
                 address               = DFO_address,
                 organizationName      = "Department of Fisheries and Oceans")
 
