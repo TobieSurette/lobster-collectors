@@ -4,45 +4,32 @@ library(EML)
 abstract <- "First-year recruits (i.e. young-of-the-year) of Atlantic lobster (Homarus americanus) and
              rock crab (Cancer irroratus) were counted and measured using larval settlement collectors
              at various coastal sampling sites in the southern Gulf of Saint Lawrence, Canada. This project
-             is part of a larger Atlantic Lobster Settlement Index (ALSI) program which spans a large part
-             of the species' western Atlantic range."
+             is part of the Atlantic Lobster Settlement Index (ALSI) program which spans a large part
+             of the species' western Atlantic range, from Cape cod, the Gulf of Maine, the Bay of Fundy, 
+             the southern Gulf of Saint Lawrence, coastal Nova Scotia and Eastern and Northern Newfoundland. 
+             Along with larval collectors, the program also includes a suction sampling component, though 
+             this protocol is not applied in the southern Gulf of Saint Lawrence."
 
-abstract <- set_TextType(abstract)
-- Cape cod, Gulf of Maine, Bay of Fundy, southern Gulf of Saint Lawrence, Nova Scotia and Eastern
-  and Northern Newfoundland.
-- Along with larval collectors, includes a suction sampling component, which represents an active sampling
-  method for all lobster sizes.
-
-- Do figure on deployment and retrieval dates for each site through the years.
- - Early-mid july deployment and late sept to early october retrieval
-
-- Plans to do an instar focused mixture analysis:
-     - Good knowledge of instar appearance to identify which instars originate in the sampling year.
-  Issues:
-     - One year recruits in collectors underrepresented with respect to suction samples at the same
-       sampling site.
-     - May be talking about the gap between yoy and small walk-ins. i.e. reduced mobility of these sizes.
-   - People seem to be seeing smaller and smaller instars, try and determine the mean instar sizes and
-       abundances through time
-   - There are worries about delays in deployement or retrieval times. Can we use these to to predict
-       recrtuitment observations? Can we use depth or temperature observations?
-   - Where are the associated Minilog temperature observations for the collectors?
-
-- Include collector temperature data somewhere
-
-
-
-
--
 # Define data methods:
 methods <- "Collectors are specially contruncted cages (dimensions?) containing gravel and rock substrate
             deemed suitable for settlement of American lobster larvae. Sets of 30 collectors are placed at
             each site. Collectors are deployed in early summer and rertrieved in early fall, before and after the
             larval settlement period, respectively."
 
+# 2008 - A more detailed protocol was used to identify the full range of species found in the collectors.
+#        This involved bringing the collectors' pet screens to the lab for close examination of the species 
+#        composition. Species flushed out of the collector during sampling were brought to the lab in a
+#        water bottle containing a formaldehyde solution.
+
 methods <- set_methods(methods)
 
-# Define set of keywords related to study:
+# Define important people:
+Denis   <- as_emld(list(given = "Denis",   family = "Gagnon",  email = "Denis.Gagnon@dfo-mpo.gc.ca"))
+Natalie <- as_emld(list(given = "Natalie", family = "Asselin", email = "Natalie.Asselin@dfo-mpo.gc.ca"))
+Tobie   <- as_emld(list(given = "Tobie",   family = "Surette", email = "Tobie.Surette@dfo-mpo.gc.ca"))
+Amelie  <- as_emld(list(given = "Amelie",  family = "Rondeau", email = "Amelie.Rondeau@dfo-mpo.gc.ca"))
+
+# Keywords related to study:
 keywords <- list(
     list(keywordThesaurus = "Species",
          keyword = list("lobster", "amercian lobster", "homarus", "americanus",
@@ -51,28 +38,12 @@ keywords <- list(
          keyword =  list("yoy", "young-of-the-year", "recruitment", "larvae", "collector")),
     list(keywordThesaurus = "Location",
          keyword = list("southern", "gulf", "saint", "lawrence", "sgsl", "PEI",
-                        "coastal", "atlantic", "canada"))
+                        "coastal", "atlantic", "canada")),
+   list(keywordThesaurus = "Project",
+         keyword =  list("alsi", "atlantic", "lobster", "settlement", "index"))
 )
 
-# Define important people:
-Denis <- as_emld(list(given = "Denis", family = "Gagnon",
-                      email = "Denis.Gagnon@dfo-mpo.gc.ca",
-                      role  = "Data Manager"))
-
-Natalie <- as_emld(list(given = "Natalie", family = "Asselin",
-                        email = "Natalie.Asselin@dfo-mpo.gc.ca",
-                        role  = "Principal Investigator"))
-
-Natalie <- as_emld(list(given = "Natalie", family = "Asselin",
-                        email = "Natalie.Asselin@dfo-mpo.gc.ca",
-                        role  = "Point of contact"))
-
-Tobie <- as_emld(list(given = "Tobie", family = "Surette",
-                      email = "Tobie.Surette@dfo-mpo.gc.ca",
-                      role  = "custodian"))
-
-
-
+# Document data dition
 c("year", "site", "collector", "species", "sex", "size", "weight", "comment")
 
 ~attributeName = c("year", "site", "collector", "species", "sex", "size", "weight", "comment")
@@ -81,7 +52,6 @@ c("year", "site", "collector", "species", "sex", "size", "weight", "comment")
 ~definition,
 ~unit,
 ~numberType = "integer", "string",
-
 
 DFO_address <- eml$address(deliveryPoint     = "343 University Avenue",
                           city               = "Moncton",
@@ -97,10 +67,10 @@ contact <- list(individualName        = Natalie$individualName,
 
 my_eml <- eml$eml(packageId = uuid::UUIDgenerate(),
                   system    = "uuid",
-                  dataset   = eml$dataset(
-                  title     = "Thresholds and Tipping Points in a Sarracenia",
+                  dataset   = eml$dataset(),
+                  title     = "Larval Settlement Index for the southern Gulf of Saint Lawrence",
                   creator   = data.manager,
-                  pubDate   = "201",
+                  pubDate   = "2020",
                   intellectualRights = "http://www.lternet.edu/data/netpolicy.html.",
                   abstract   = abstract,
                   keywordSet = keywordSet,
@@ -118,62 +88,43 @@ eml_validate(my_eml)
 
 write_eml(my_eml, "eml.xml")
 
-                  
 # Sections copié du metadata system à Fishman
                   
 # Section (Region / Branch / Division / Section)
 # Gulf - Science - Fisheries and Ecosystem Sciences - Crustaceans
 # 
-# Status
-# ongoing
+# Status = "ongoing"
 # 
-# Maintenance frequency
-# Annually
+# Maintenance frequency = "Annually"
 # 
-# Purpose (English)
+# Purpose (English) = "Monitor lobster and rock crab young-of-the-year annual recruitment"
+# Description (English) = "Lobster and rock crab counts and measurements and temeprature observations."
+#
+# Start year = 2008
+#
+# Resource constraint (English) = "Species counts are unstandardized."
 # 
-# Description (English)
+# QC process description (English) = "Data are checked annually for irregularities and errors."
 # 
-# Start day Start month Start year
+# Security use limitation (English) = "No limitations"
 # 
-# End day End month End year
+# Security classification = "Unclassified"�ed
 # 
-# Resource constraint (English)
+# Storage notes = "Distribution format = "CSV (comma-separated-values) and text files."
 # 
-# QC process description (English)
-# Data are checked for irregularities and errors.
+# Data character set = "usAscii"
 # 
-# Security use limitation (English)
-# No limitations
+# Spatial representation = "point"
 # 
-# Security classi􀂦cation
-# Unclassi􀂦ed
-# 
-# Storage notes
-# 
-# Distribution format
-# CSV
-# 
-# Data character set
-# usAscii
-# 
-# Spatial representation type
-# vector
-# 
-# Spatial reference system
-# EPSG:4269 LL (Nad83)
+# Spatial reference system = EPSG:4269 LL (Nad83)
 # 
 # Geographic description (English)
-# NAFO 􀂦shing division 4T
+# NAFO Fising Division = "4T"�shing division 4T
 # 
-# West bounding coordinate
-# -65.6298
-# South bounding coordinate
-# 45.94607
-# East bounding coordinate
-# -60.3697
-# North bounding coordinate
-# 48.93528
+# West bounding coordinate  = 
+# South bounding coordinate = 
+# East bounding coordinate  = 
+# North bounding coordinate = 
 # 
 # Parameters collected (English)
 # species counts (ecological); temperature (environmental);
