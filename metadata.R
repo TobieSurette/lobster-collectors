@@ -57,15 +57,21 @@ keywords <- list(
 # Define important people:
 Denis <- as_emld(list(given = "Denis", family = "Gagnon",
                       email = "Denis.Gagnon@dfo-mpo.gc.ca",
-                      role  = "data manager"))
+                      role  = "Data Manager"))
 
 Natalie <- as_emld(list(given = "Natalie", family = "Asselin",
                         email = "Natalie.Asselin@dfo-mpo.gc.ca",
-                        role  = "project lead"))
+                        role  = "Principal Investigator"))
+
+Natalie <- as_emld(list(given = "Natalie", family = "Asselin",
+                        email = "Natalie.Asselin@dfo-mpo.gc.ca",
+                        role  = "Point of contact"))
 
 Tobie <- as_emld(list(given = "Tobie", family = "Surette",
                       email = "Tobie.Surette@dfo-mpo.gc.ca",
-                      role  = "package author"))
+                      role  = "custodian"))
+
+
 
 c("year", "site", "collector", "species", "sex", "size", "weight", "comment")
 
