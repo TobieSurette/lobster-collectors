@@ -14,9 +14,9 @@ read.collector <- function(year, site, species, type, ...){
 
    # Upload files:
    v <- list()
-   if (tab["site"])       v$site       <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/site.csv", stringsAsFactors = FALSE)
-   if (tab["collector"])  v$collector  <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/collector.csv", stringsAsFactors = FALSE)
-   if (tab["biological"]) v$biological <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/biological.csv", stringsAsFactors = FALSE)
+   if (tab["site"])       v$site       <- read.csv("https://raw.github.com/TobieSurette/lobster-collectors/master/data/site.csv", stringsAsFactors = FALSE)
+   if (tab["collector"])  v$collector  <- read.csv("https://raw.github.com/TobieSurette/lobster-collectors/master/data/collector.csv", stringsAsFactors = FALSE)
+   if (tab["biological"]) v$biological <- read.csv("https://raw.github.com/TobieSurette/lobster-collectors/master/data/biological.csv", stringsAsFactors = FALSE)
 
    # Data subsetting:
    if (!missing(year))    v <- lapply(v, function(x) x[x$year %in% year, ])
