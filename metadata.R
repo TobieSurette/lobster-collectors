@@ -83,8 +83,8 @@ DFO_address <- eml$address(deliveryPoint     = "343 University Avenue",
                           postalCode         = "E1C 9B6",
                           country            = "Canada")
 
-contact <- list(individualName        = Denis$individualName,
-                electronicMailAddress = Denis$electronicMailAddress,
+contact <- list(individualName        = Natalie$individualName,
+                electronicMailAddress = Natalie$electronicMailAddress,
                 address               = DFO_address,
                 organizationName      = "Department of Fisheries and Oceans")
 
@@ -111,4 +111,65 @@ my_eml <- eml$eml(packageId = uuid::UUIDgenerate(),
 eml_validate(my_eml)
 
 write_eml(my_eml, "eml.xml")
+
+                  
+# Sections copié du metadata system à Fishman
+                  
+# Section (Region / Branch / Division / Section)
+# Gulf - Science - Fisheries and Ecosystem Sciences - Crustaceans
+# 
+# Status
+# ongoing
+# 
+# Maintenance frequency
+# Annually
+# 
+# Purpose (English)
+# 
+# Description (English)
+# 
+# Start day Start month Start year
+# 
+# End day End month End year
+# 
+# Resource constraint (English)
+# 
+# QC process description (English)
+# Data are checked for irregularities and errors.
+# 
+# Security use limitation (English)
+# No limitations
+# 
+# Security classi􀂦cation
+# Unclassi􀂦ed
+# 
+# Storage notes
+# 
+# Distribution format
+# CSV
+# 
+# Data character set
+# usAscii
+# 
+# Spatial representation type
+# vector
+# 
+# Spatial reference system
+# EPSG:4269 LL (Nad83)
+# 
+# Geographic description (English)
+# NAFO 􀂦shing division 4T
+# 
+# West bounding coordinate
+# -65.6298
+# South bounding coordinate
+# 45.94607
+# East bounding coordinate
+# -60.3697
+# North bounding coordinate
+# 48.93528
+# 
+# Parameters collected (English)
+# species counts (ecological); temperature (environmental);
+# CTD pro
 
