@@ -6,7 +6,7 @@ jpeg <- FALSE
 # Load data file HERE:
 # read.csv(filename, )
 # data file is assumed to have 'year', 'site' and 'n' fields:
-data <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/Bio_Collector_SummaryData_2008-2019.csv", stringsAsFactors = FALSE)
+data <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/Biological.csv", stringsAsFactors = FALSE)
 names(data) <- tolower(names(data))
 data$n <- data$nyoy
 

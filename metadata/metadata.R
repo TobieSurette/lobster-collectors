@@ -1,27 +1,12 @@
 library(EML)
 
 # Define data abstract:
-abstract <- "First-year recruits (i.e. young-of-the-year) of Atlantic lobster (Homarus americanus) and
-             rock crab (Cancer irroratus) were counted and measured using larval settlement collectors
-             at various coastal sampling sites in the southern Gulf of Saint Lawrence, Canada. This project
-             is part of the Atlantic Lobster Settlement Index (ALSI) program which spans a large part
-             of the species' western Atlantic range, from Cape cod, the Gulf of Maine, the Bay of Fundy, 
-             the southern Gulf of Saint Lawrence, coastal Nova Scotia and Eastern and Northern Newfoundland. 
-             Along with larval collectors, the program also includes a suction sampling component, though 
-             this protocol is not applied in the southern Gulf of Saint Lawrence."
+abstract_file <- readLines("metadata/abstract.md")
+abstract <- set_methods(abstracts_file)
 
 # Define data methods:
-methods <- "Collectors are specially contruncted cages (dimensions?) containing gravel and rock substrate
-            deemed suitable for settlement of American lobster larvae. Sets of 30 collectors are placed at
-            each site. Collectors are deployed in early summer and rertrieved in early fall, before and after the
-            larval settlement period, respectively."
-
-# 2008 - A more detailed protocol was used to identify the full range of species found in the collectors.
-#        This involved bringing the collectors' pet screens to the lab for close examination of the species 
-#        composition. Species flushed out of the collector during sampling were brought to the lab in a
-#        water bottle containing a formaldehyde solution.
-
-methods <- set_methods(methods)
+methods_file <- readLines("metadata/methods.md")
+methods <- set_methods(methods_file)
 
 # Define important people:
 Denis   <- as_emld(list(given = "Denis",   family = "Gagnon",  email = "Denis.Gagnon@dfo-mpo.gc.ca"))
@@ -89,43 +74,43 @@ eml_validate(my_eml)
 write_eml(my_eml, "eml.xml")
 
 # Sections copié du metadata system à Fishman
-                  
+
 # Section (Region / Branch / Division / Section)
 # Gulf - Science - Fisheries and Ecosystem Sciences - Crustaceans
-# 
+#
 # Status = "ongoing"
-# 
+#
 # Maintenance frequency = "Annually"
-# 
+#
 # Purpose (English) = "Monitor lobster and rock crab young-of-the-year annual recruitment"
 # Description (English) = "Lobster and rock crab counts and measurements and temeprature observations."
 #
 # Start year = 2008
 #
 # Resource constraint (English) = "Species counts are unstandardized."
-# 
+#
 # QC process description (English) = "Data are checked annually for irregularities and errors."
-# 
+#
 # Security use limitation (English) = "No limitations"
-# 
+#
 # Security classification = "Unclassified"�ed
-# 
+#
 # Storage notes = "Distribution format = "CSV (comma-separated-values) and text files."
-# 
+#
 # Data character set = "usAscii"
-# 
+#
 # Spatial representation = "point"
-# 
+#
 # Spatial reference system = EPSG:4269 LL (Nad83)
-# 
+#
 # Geographic description (English)
 # NAFO Fising Division = "4T"�shing division 4T
-# 
-# West bounding coordinate  = 
-# South bounding coordinate = 
-# East bounding coordinate  = 
-# North bounding coordinate = 
-# 
+#
+# West bounding coordinate  =
+# South bounding coordinate =
+# East bounding coordinate  =
+# North bounding coordinate =
+#
 # Parameters collected (English)
 # species counts (ecological); temperature (environmental);
 # CTD pro
