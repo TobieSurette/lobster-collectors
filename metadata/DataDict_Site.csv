@@ -1,0 +1,8 @@
+name_nom,description_en,description_fr,Units or format
+Year,The year the site was sampled,L'année de l'échantillonnage,YYYY
+Site,Site name,Nom du site,
+longitude,Longitude of the central position of the site,Longitude de la position centrale du site,Decimal degree
+latitude,Latitude of the central position of the site,Latitude de la position centrale du site,Decimal degree
+date.deployed,Date collectors deployed,Date de déploiement,DDMMYYYY
+date.retrieved,Date collectors retrieved,Date de récupération,DDMMYYYY
+comment,Comment,Commentaire,
