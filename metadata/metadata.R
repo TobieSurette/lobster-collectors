@@ -73,6 +73,7 @@ eml_validate(my_eml)
 
 write_eml(my_eml, "eml.xml")
 
+    
 # Sections copié du metadata system à Fishman
 
 # Section (Region / Branch / Division / Section)
