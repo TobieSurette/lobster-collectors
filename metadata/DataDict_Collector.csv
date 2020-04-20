@@ -1,0 +1,6 @@
+name_nom,description_en,description_fr,Units or format
+year,The year the site was sampled,L'année de l'échantillonnage,YYYY
+site,Site name,Nom du site,
+collector,Collector number. A unique identifier for each collector at each site/year.,Numéro du collecteur. Un identifiant unique pour chaque collecteur à chaque site/année.,Numeric
+condition,Collector condition at retrieval,Condition du collecteur à la récupération,Numeric value between 1 and 5
+comment,Comment,Commentaire,
