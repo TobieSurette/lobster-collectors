@@ -2,7 +2,7 @@ library(gulf.utils)
 
 output <- "png" # "png"  # or ""
 language <- "english"
-file <- "Sampling summaries/Sampling"
+file <- "sampling summaries/figures/Sampling"
 
 if (language == "english"){
    xlab <- "Year"
@@ -45,7 +45,7 @@ names(refdate) <- month.name[6:11]
 
 for (j in 1:length(sites)){
    if (output == "png") png(filename = paste0(file, " - ", sites[j], "_", lang.str, ".png"), 
-                         width = 5*480, height = 5*400, res = 5*75)
+                         width = 7, height = 5.5, res = 5*75, units = "in")
    par(mar = c(5, 4, 2, 2) + 0.1)
 
 
