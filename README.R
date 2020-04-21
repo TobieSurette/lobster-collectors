@@ -11,9 +11,9 @@ writeLines("\n## Methods\n", con = readme.file, sep = "\n")
 writeLines(readLines("metadata/methods.md"), con = readme.file, sep = "\n")
 
 ## Authors:
-cat("\n## Authors\n", file = file, append = TRUE)
-cat("* **Tobie Surette**\n", file = file, append = TRUE)
-cat("* **Denis Gagnon**\n", file = file, append = TRUE)
-cat("* **Natalie Asselin**\n", file = file, append = TRUE)
+cat("## Authors\n", file = readme.file, append = TRUE)
+cat("* **Tobie Surette**\n", file = readme.file, append = TRUE)
+cat("* **Denis Gagnon**\n", file = readme.file, append = TRUE)
+cat("* **Natalie Asselin**\n", file = readme.file, append = TRUE)
 
 close(readme.file)

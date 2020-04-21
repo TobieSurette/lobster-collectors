@@ -17,3 +17,7 @@ Collectors which were misplaced during storms, flipped over or contain silt or s
 sampling season were noted as such.
 
 
+## Authors
+* **Tobie Surette**
+* **Denis Gagnon**
+* **Natalie Asselin**
