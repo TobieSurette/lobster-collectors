@@ -8,7 +8,7 @@ abstract <- set_methods(abstracts_file)
 methods_file <- readLines("metadata/methods.md")
 methods <- set_methods(methods_file)
 
-# Define important people:
+# Define people:
 Denis   <- as_emld(list(given = "Denis",   family = "Gagnon",  email = "Denis.Gagnon@dfo-mpo.gc.ca"))
 Natalie <- as_emld(list(given = "Natalie", family = "Asselin", email = "Natalie.Asselin@dfo-mpo.gc.ca"))
 Tobie   <- as_emld(list(given = "Tobie",   family = "Surette", email = "Tobie.Surette@dfo-mpo.gc.ca"))
