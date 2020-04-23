@@ -1,12 +1,7 @@
 library(EML)
 
-# Define data abstract:
-abstract_file <- readLines("metadata/abstract.md")
-abstract <- set_methods(abstracts_file)
-
-# Define data methods:
-methods_file <- readLines("metadata/methods.md")
-methods <- set_methods(methods_file)
+abstract <- set_methods("metadata/abstract.md") # Define data abstract.
+methods <- set_methods("metadata/methods.md")   # Define data methods.
 
 # Define people:
 Denis   <- as_emld(list(given = "Denis",   family = "Gagnon",  email = "Denis.Gagnon@dfo-mpo.gc.ca"))
@@ -28,15 +23,8 @@ keywords <- list(
          keyword =  list("alsi", "atlantic", "lobster", "settlement", "index"))
 )
 
-# Document data dition
-c("year", "site", "collector", "species", "sex", "size", "weight", "comment")
-
-~attributeName = c("year", "site", "collector", "species", "sex", "size", "weight", "comment")
-~attributeDefinition =
-~formatString = c("YYYY", NA
-~definition,
-~unit,
-~numberType = "integer", "string",
+# Site table:
+site.attr <- read.csv("metadata/DataDict_Site.csv", header = TRUE, stringsAsFactors = FALSE)
 
 DFO_address <- eml$address(deliveryPoint     = "343 University Avenue",
                           city               = "Moncton",
@@ -49,31 +37,60 @@ contact <- list(individualName        = Natalie$individualName,
                 address               = DFO_address,
                 organizationName      = "Department of Fisheries and Oceans")
 
+# Read site data:
+sites <- read.csv("data/site.csv", header = TRUE, stringsAsFactors = FALSE)
+sites$date.deployed <- as.Date(sites$date.deployed)
+sites$date.retrieved <- as.Date(sites$date.retrieved)
 
-my_eml <- eml$eml(packageId = uuid::UUIDgenerate(),
-                  system    = "uuid",
-                  dataset   = eml$dataset(),
-                  title     = "Larval Settlement Index for the southern Gulf of Saint Lawrence",
-                  creator   = data.manager,
-                  pubDate   = "2020",
-                  intellectualRights = "http://www.lternet.edu/data/netpolicy.html.",
-                  abstract   = abstract,
-                  keywordSet = keywordSet,
-                  coverage   = coverage,
-                  contact    = contact,
-                  methods    = methods,
-                  dataTable  = eml$dataTable(
-                  entityName = "biological.csv",
-                  entityDescription = "Coastal Larvae Collector",
-                  physical   = physical,
-                  attributeList = attributeList)
-               ))
+# Define spatio-temporal coverage:
+coverage <- set_coverage(beginDate = as.character(min(sites$date.deployed)), 
+                         endDate = as.character(max(sites$date.retrieved)),
+                         sci_names = c("Homarus americanus", "Cancer irroratus"),
+                         geographicDescription = "southern Gulf of Saint Lawrence", 
+                         westBoundingCoordinate = min(sites$longitude, na.rm = TRUE), 
+                         eastBoundingCoordinate = max(sites$longitude, na.rm = TRUE),
+                         northBoundingCoordinate = min(sites$latitude, na.rm = TRUE), 
+                         southBoundingCoordinate = max(sites$latitude, na.rm = TRUE))
 
-eml_validate(my_eml)
+# Physical file pointer:
+site.file <- "data/site.csv"
+site.physical <- set_physical(site.file, 
+                              size = as.character(file.size(site.file)),
+                              authentication = digest::digest(site.file, algo = "md5", file = TRUE),
+                              authMethod = "MD5")
 
-write_eml(my_eml, "eml.xml")
+# Create data table:
+site.dataTable <- list(entityName = "site.csv",
+                       entityDescription = "Larvae Collector Sampling Sites",
+                       physical = physical,
+                       attributeList = attributeList)
 
-    
+# Site table attributes:
+site.attr.file <- "metadata/DataDict_Site.csv"
+site.attr <- read.csv(site.attr.file, header = TRUE, stringsAsFactors = FALSE)
+site.attr <- set_attributes(site.attr, col_classes = c("Date", "character", "numeric", "numeric", "Date", "Date", "character"))
+
+# Define dataset:
+site.dataset <- list(title = "Atlantic Lobster Settlement Index - southern Gulf of Saint Lawrence",
+                     creator    = Natalie,
+                     pubDate    = 2020,
+                     abstract   = abstract,
+                     methods    = methods,
+                     keywordSet = keywords,
+                     coverage   = coverage,
+                     contact    = contact,
+                     dataTable  = site.dataTable)
+
+site.eml <- list(packageId     = uuid::UUIDgenerate(),
+                 system        = "uuid",
+                 dataset       = site.dataset)
+
+eml_validate(site.eml)
+
+write_eml(site.eml, "metadata/site.xml")
+
+
+
 # Sections copié du metadata system à Fishman
 
 # Section (Region / Branch / Division / Section)
@@ -106,11 +123,6 @@ write_eml(my_eml, "eml.xml")
 #
 # Geographic description (English)
 # NAFO Fising Division = "4T"�shing division 4T
-#
-# West bounding coordinate  =
-# South bounding coordinate =
-# East bounding coordinate  =
-# North bounding coordinate =
 #
 # Parameters collected (English)
 # species counts (ecological); temperature (environmental);
