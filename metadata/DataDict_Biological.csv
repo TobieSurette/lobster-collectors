@@ -1,9 +1,9 @@
-name_nom,description_en,description_fr,Units or format
-year,The year the site was sampled,L'année de l'échantillonnage,YYYY
-site,Site name,Nom du site,
-collector,Collector number. A unique identifier for each collector at each site/year.,Numéro du collecteur. Un identifiant unique pour chaque collecteur à chaque site/année.,Numeric
-species,Scientific name of species,Nom scientifique de l'espèce,
-sex,sex,sexe,M or F
-size,Size measurement,Mesure de la taille,mm
-weight,Weight,Poids,grams
-comment,Comment,Commentaire,
+AttributeName,attributeDefinition,formatString,definition,unit,numberType
+year,The year the site was sampled,YYYY,NA,NA,NA
+site,Site name,NA,NA,NA,NA
+collector,Collector number. A unique identifier for each collector at each site/year. Range 0-9999 (integer),NA,NA,NA,NA
+species,Scientific name of species,NA,NA,NA,NA
+sex,sex. M or F,NA,NA,NA,NA
+size,Size measurement,NA,NA,"""millimeter""","""real"""
+weight,Weight,NA,NA,"""grams""","""real"""
+comment,Comment,NA,NA,NA,NA
