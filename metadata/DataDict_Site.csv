@@ -1,8 +1,1 @@
-AttributeName,attributeDefinition,formatString,definition,unit,numberType
-Year,The year the site was sampled,YYYY,NA,NA,NA
-Site,Site name,NA,NA,NA,NA
-longitude,Longitude of the central position of the site (numeric),NA,NA,decimal degree,NA
-latitude,Latitude of the central position of the site (numeric),NA,NA,decimal degree,NA
-date.deployed,Date collectors deployed,DDMMYYYY,NA,NA,NA
-date.retrieved,Date collectors retrieved,DDMMYYYY,NA,NA,NA
-comment,Comment,NA,NA,NA,NA
+attributeName,attributeDefinition,formatString,definition,unit,numberTypeYear,The year the site was sampled,YYYY,NA,NA,NASite,Site name,NA,NA,NA,NAlongitude,Longitude of the central position of the site (numeric),NA,NA,degree,reallatitude,Latitude of the central position of the site (numeric),NA,NA,degree,realdate.deployed,Date collectors deployed,DDMMYYYY,NA,NA,NAdate.retrieved,Date collectors retrieved,DDMMYYYY,NA,NA,NAcomment,Comment,NA,NA,NA,NA
