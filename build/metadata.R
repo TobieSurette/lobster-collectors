@@ -1,4 +1,5 @@
 library(EML)
+library(emldown)
 
 abstract <- set_methods("metadata/abstract.md") # Define data abstract.
 methods <- set_methods("metadata/methods.md")   # Define data methods.
@@ -89,7 +90,7 @@ eml_validate(site.eml)
 
 write_eml(site.eml, "metadata/site.xml")
 
-
+render_eml("metadata/site.xml", outfile = "site.html", output_dir = "/metadata/")
 
 # Sections copié du metadata system à Fishman
 

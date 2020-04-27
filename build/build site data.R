@@ -30,5 +30,6 @@ y <- aggregate(x[c("longitude", "latitude")], by = x["site"], mean, na.rm = TRUE
 y$station <- NA
 y$depth <- NA
           
-          
+output_dir
+
 write.table(x, file = "/Users/crustacean/Desktop/lobster-collectors/data/site.csv", col.names = TRUE, row.names = FALSE, sep = ",")
