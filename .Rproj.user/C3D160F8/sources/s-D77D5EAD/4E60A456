@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587992021659.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4E60A456",
+    "lastKnownWriteTime" : 1587992051,
+    "last_content_update" : 1587992051980,
+    "path" : "~/Desktop/lobster-collectors/build/build.R",
+    "project_path" : "build/build.R",
+    "properties" : {
+        "cursorPosition" : "2,31",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

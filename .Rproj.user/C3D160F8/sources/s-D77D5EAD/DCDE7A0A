@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1588093248095.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DCDE7A0A",
+    "lastKnownWriteTime" : 1588094822,
+    "last_content_update" : 1588094822371,
+    "path" : "~/Desktop/lobster-collectors/protocol/protocol.Rmd",
+    "project_path" : "protocol/protocol.Rmd",
+    "properties" : {
+        "cursorPosition" : "9,253",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
