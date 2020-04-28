@@ -2,7 +2,9 @@
 title: "Larvae Collector Sampling Protocol"
 author: "Tobie Surette"
 date: '2020-04-28'
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ## Minilogs
