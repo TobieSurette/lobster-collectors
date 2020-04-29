@@ -8,11 +8,11 @@ output:
 
 ## Minilogs
 
-* Ahead of the sampling season, all Minilog probes will be suspended in an equilibrated ice-bucket, i.e. with moving water to compare their **baseline temperatures**. Probes with too large a bias (> $0.5^{o}$C) will not be used the the collector study. 
+* Ahead of the sampling season, all Minilog probes will be suspended in an equilibrated ice-bucket, i.e. with moving water to compare their **baseline temperatures**. Probes with too large a bias (> $0.5^{o}$C) will not be used in the collector study. 
 
-* In preparation for the sampling season, **DFO Science representative will communicate** with stakeholders (e.g. fishing associations or provincial representatives) to determine whether they have the desire or intention of placing new collectors at a new site in the coming sampling year. Extra Minilog probes may be provided for that purpose.
+* In preparation for the sampling season, **a DFO Science representative will communicate** with stakeholders (e.g. fishing associations or provincial representatives) to determine whether they have the desire or intention of placing new collectors at a new site in the coming sampling year. Extra Minilog probes may be provided for that purpose.
 
-* When Minilog are initialized, internal clocks will be set to **daylight saving time**, i.e. summer season time, even when set during the winter season, to avoid chronological inconsistencies between devices. 
+* When Minilog are initialized, internal clocks will be set to **daylight saving time (DST)**, i.e. summer season time, even when set during the winter season, to avoid chronological inconsistencies between devices. 
 
 * When downloading Minilog temperature data from recovered probes, the **date and the difference between the Minilog internal clocks and the actual time will be recorded**. This ensures that a time correction can be perfomed on the Minilog time stamps.
 
@@ -20,6 +20,6 @@ output:
 
 ## Collector coordinates
 
-* Every, collector site coordinates will be recorded for the regular sampling group of collectors, as well as any additional group of collectors which may have been added (e.g. deep-water groups).
+* Every year during deployment, collector site coordinates will be recorded for the regular sampling group of collectors (i.e. the 30 basic collectors), as well as for any additional groups of collectors which may have been added (e.g. deep-water groups).
 
 
