@@ -1,9 +1,9 @@
 {
-    "path" : "~/Desktop/lobster-collectors/export",
-    "sortOrder" : [
+    "path": "~/Desktop/lobster-collectors/data",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }
