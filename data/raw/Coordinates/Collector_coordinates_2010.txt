@@ -1,0 +1,564 @@
+Grid	Lat/Lon hddd°mm.mmm'
+Datum	WGS 84
+
+Header	Name	Description	Type	Position	Altitude	Depth	Proximity	Temperature	Display Mode	Color	Symbol	Facility	City	State	Country	Date Modified	Link	Categories
+
+Waypoint	1706	06-JUL-10 3:10:41PM	User Waypoint	N46 18.050 W62 20.220	1 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1717	05-JUL-10 9:46:37AM	User Waypoint	N46 26.420 W63 08.970	3 m				Symbol & Name	Unknown	Water Hydrant		Covehead					
+Waypoint	1718	05-JUL-10 9:47:22AM	User Waypoint	N46 26.420 W63 08.981	4 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1719	05-JUL-10 9:47:55AM	User Waypoint	N46 26.417 W63 08.987	4 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1720	05-JUL-10 9:52:28AM	User Waypoint	N46 26.417 W63 09.019	5 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1721	05-JUL-10 9:55:22AM	User Waypoint	N46 26.418 W63 09.015	3 m				Symbol & Name	Unknown	Water Hydrant		Covehead					
+Waypoint	1722	05-JUL-10 9:59:53AM	User Waypoint	N46 26.406 W63 08.999	4 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1723	05-JUL-10 10:00:28AM	User Waypoint	N46 26.406 W63 09.010	6 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1724	05-JUL-10 10:01:07AM	User Waypoint	N46 26.405 W63 09.016	7 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1725	05-JUL-10 10:01:54AM	User Waypoint	N46 26.414 W63 09.024	6 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1726	05-JUL-10 10:02:35AM	User Waypoint	N46 26.417 W63 09.049	4 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1727	05-JUL-10 10:07:21AM	User Waypoint	N46 26.422 W63 08.976	2 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1728	05-JUL-10 10:07:57AM	User Waypoint	N46 26.430 W63 08.992	6 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1729	05-JUL-10 10:08:28AM	User Waypoint	N46 26.435 W63 09.012	3 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1730	05-JUL-10 10:09:02AM	User Waypoint	N46 26.438 W63 09.024	3 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1731	05-JUL-10 10:09:37AM	User Waypoint	N46 26.447 W63 09.046	-0 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1732	05-JUL-10 10:13:27AM	User Waypoint	N46 26.434 W63 08.971	3 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1733	05-JUL-10 10:14:01AM	User Waypoint	N46 26.441 W63 08.988	4 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1734	05-JUL-10 10:14:39AM	User Waypoint	N46 26.447 W63 09.006	4 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1735	05-JUL-10 10:15:15AM	User Waypoint	N46 26.451 W63 09.023	5 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1736	05-JUL-10 10:16:02AM	User Waypoint	N46 26.453 W63 09.039	2 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1737	05-JUL-10 10:19:33AM	User Waypoint	N46 26.449 W63 08.979	5 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1738	05-JUL-10 10:20:13AM	User Waypoint	N46 26.450 W63 08.986	5 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1739	05-JUL-10 10:20:48AM	User Waypoint	N46 26.454 W63 08.997	8 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1740	05-JUL-10 10:21:29AM	User Waypoint	N46 26.469 W63 09.027	8 m				Symbol & Name	Unknown	Water Hydrant		Covehead					
+Waypoint	1741	05-JUL-10 10:22:08AM	User Waypoint	N46 26.483 W63 09.040	9 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1742	05-JUL-10 10:25:48AM	User Waypoint	N46 26.452 W63 08.967	2 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1743	05-JUL-10 10:26:24AM	User Waypoint	N46 26.457 W63 08.985	4 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1744	05-JUL-10 10:26:59AM	User Waypoint	N46 26.462 W63 08.992	4 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1745	05-JUL-10 10:27:35AM	User Waypoint	N46 26.464 W63 08.997	5 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1746	05-JUL-10 10:28:11AM	User Waypoint	N46 26.472 W63 09.015	3 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1747	06-JUL-10 9:41:38AM	User Waypoint	N46 03.846 W62 27.014	1 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1748	06-JUL-10 9:42:54AM	User Waypoint	N46 03.841 W62 27.001	4 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1749	06-JUL-10 9:43:51AM	User Waypoint	N46 03.844 W62 27.012	5 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1750	06-JUL-10 9:45:22AM	User Waypoint	N46 03.835 W62 27.010	3 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1751	06-JUL-10 9:47:43AM	User Waypoint	N46 03.888 W62 27.014	3 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1752	06-JUL-10 9:56:08AM	User Waypoint	N46 03.846 W62 27.026	3 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1753	06-JUL-10 9:55:16AM	User Waypoint	N46 03.864 W62 27.025	4 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1754	06-JUL-10 9:54:26AM	User Waypoint	N46 03.873 W62 27.025	5 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1755	06-JUL-10 9:53:37AM	User Waypoint	N46 03.885 W62 27.030	4 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1756	06-JUL-10 9:52:36AM	User Waypoint	N46 03.898 W62 27.036	5 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1757	06-JUL-10 10:05:29AM	User Waypoint	N46 03.842 W62 27.051	7 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1758	06-JUL-10 10:04:23AM	User Waypoint	N46 03.855 W62 27.046	4 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1759	06-JUL-10 10:06:25AM	User Waypoint	N46 03.869 W62 27.045	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1760	06-JUL-10 10:03:24AM	User Waypoint	N46 03.869 W62 27.032	5 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1761	06-JUL-10 10:00:31AM	User Waypoint	N46 03.888 W62 27.033	2 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1762	06-JUL-10 10:13:49AM	User Waypoint	N46 03.833 W62 27.056	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1763	06-JUL-10 10:12:58AM	User Waypoint	N46 03.856 W62 27.052	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1764	06-JUL-10 10:12:00AM	User Waypoint	N46 03.862 W62 27.052	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1765	06-JUL-10 10:11:08AM	User Waypoint	N46 03.869 W62 27.056	5 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1766	06-JUL-10 10:10:17AM	User Waypoint	N46 03.879 W62 27.047	5 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1767	06-JUL-10 10:20:55AM	User Waypoint	N46 03.842 W62 27.072	5 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1768	06-JUL-10 10:20:00AM	User Waypoint	N46 03.845 W62 27.075	4 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1769	06-JUL-10 10:19:05AM	User Waypoint	N46 03.858 W62 27.077	5 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1770	06-JUL-10 10:18:18AM	User Waypoint	N46 03.868 W62 27.073	4 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1771	06-JUL-10 10:17:05AM	User Waypoint	N46 03.869 W62 27.061	4 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1772	06-JUL-10 10:32:50AM	User Waypoint	N46 03.854 W62 27.100	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1773	06-JUL-10 10:31:58AM	User Waypoint	N46 03.864 W62 27.100	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1774	06-JUL-10 10:30:57AM	User Waypoint	N46 03.869 W62 27.094	1 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1775	06-JUL-10 10:30:04AM	User Waypoint	N46 03.883 W62 27.092	1 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1776	06-JUL-10 10:33:41AM	User Waypoint	N46 03.843 W62 27.095	4 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1777	06-JUL-10 3:09:14PM	User Waypoint	N46 18.063 W62 20.232	2 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1778	06-JUL-10 3:08:00PM	User Waypoint	N46 18.071 W62 20.246	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1779	06-JUL-10 3:06:57PM	User Waypoint	N46 18.068 W62 20.255	4 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1780	06-JUL-10 3:06:25PM	User Waypoint	N46 18.074 W62 20.271	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1781	06-JUL-10 3:21:29PM	User Waypoint	N46 18.059 W62 20.226	-2 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1782	06-JUL-10 3:19:57PM	User Waypoint	N46 18.070 W62 20.230	2 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1783	06-JUL-10 3:18:36PM	User Waypoint	N46 18.074 W62 20.234	-1 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1784	06-JUL-10 3:17:27PM	User Waypoint	N46 18.077 W62 20.243	2 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1785	06-JUL-10 3:16:35PM	User Waypoint	N46 18.086 W62 20.251	2 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1786	06-JUL-10 3:29:05PM	User Waypoint	N46 18.066 W62 20.213	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1787	06-JUL-10 3:27:46PM	User Waypoint	N46 18.074 W62 20.226	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1788	06-JUL-10 3:26:31PM	User Waypoint	N46 18.079 W62 20.228	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1789	06-JUL-10 3:25:26PM	User Waypoint	N46 18.083 W62 20.233	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1790	06-JUL-10 3:24:52PM	User Waypoint	N46 18.087 W62 20.243	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1791	06-JUL-10 3:39:21PM	User Waypoint	N46 18.072 W62 20.197	5 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1792	06-JUL-10 3:38:21PM	User Waypoint	N46 18.081 W62 20.199	4 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1793	06-JUL-10 3:37:18PM	User Waypoint	N46 18.090 W62 20.211	5 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1794	06-JUL-10 3:33:32PM	User Waypoint	N46 18.094 W62 20.222	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1795	06-JUL-10 3:34:45PM	User Waypoint	N46 18.104 W62 20.238	4 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1796	06-JUL-10 3:47:22PM	User Waypoint	N46 18.093 W62 20.196	2 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1797	06-JUL-10 3:46:34PM	User Waypoint	N46 18.094 W62 20.198	2 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1798	06-JUL-10 3:45:31PM	User Waypoint	N46 18.095 W62 20.207	-2 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1799	06-JUL-10 3:44:41PM	User Waypoint	N46 18.095 W62 20.211	1 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1800	06-JUL-10 3:43:37PM	User Waypoint	N46 18.100 W62 20.223	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1801	06-JUL-10 3:56:51PM	User Waypoint	N46 18.043 W62 20.223	6 m				Symbol & Name	Unknown	Water Hydrant		Fortune					
+Waypoint	1802	06-JUL-10 3:55:38PM	User Waypoint	N46 18.052 W62 20.235	7 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1803	06-JUL-10 3:54:38PM	User Waypoint	N46 18.058 W62 20.238	5 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1804	06-JUL-10 3:53:27PM	User Waypoint	N46 18.055 W62 20.261	5 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1805	06-JUL-10 3:52:18PM	User Waypoint	N46 18.072 W62 20.266	1 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1806	06-JUL-10 4:06:32PM	User Waypoint	N46 17.911 W62 18.763	1 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1807	06-JUL-10 4:06:41PM	User Waypoint	N46 17.920 W62 18.758	2 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1808	06-JUL-10 4:06:50PM	User Waypoint	N46 17.929 W62 18.754	1 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1809	06-JUL-10 4:06:59PM	User Waypoint	N46 17.940 W62 18.749	0 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1810	06-JUL-10 4:07:08PM	User Waypoint	N46 17.952 W62 18.744	1 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1811	07-JUL-10 10:32:28AM	User Waypoint	N46 44.235 W63 58.076	10 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1812	18.0 ft - 36.1 ft	User Waypoint	N46 44.233 W63 58.092					Symbol & Name	Unknown	City (Small)		Alberton			10/26/2010 11:11:55 AM 		
+Waypoint	1813	07-JUL-10 10:33:29AM	User Waypoint	N46 44.245 W63 58.097	8 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1814	07-JUL-10 10:35:06AM	User Waypoint	N46 44.257 W63 58.107	9 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1815	07-JUL-10 10:36:14AM	User Waypoint	N46 44.263 W63 58.119	6 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1816	07-JUL-10 10:39:13AM	User Waypoint	N46 44.245 W63 58.059	9 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1817	07-JUL-10 10:40:19AM	User Waypoint	N46 44.251 W63 58.084	7 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1818	07-JUL-10 10:41:39AM	User Waypoint	N46 44.252 W63 58.089	7 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1819	07-JUL-10 10:43:26AM	User Waypoint	N46 44.261 W63 58.098	3 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1820	07-JUL-10 10:44:58AM	User Waypoint	N46 44.267 W63 58.105	9 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1821	07-JUL-10 10:48:21AM	User Waypoint	N46 44.242 W63 58.074	8 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1822	07-JUL-10 10:49:29AM	User Waypoint	N46 44.255 W63 58.087	9 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1823	07-JUL-10 10:50:43AM	User Waypoint	N46 44.271 W63 58.089	7 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1824	07-JUL-10 10:51:25AM	User Waypoint	N46 44.280 W63 58.092	8 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1825	07-JUL-10 10:52:23AM	User Waypoint	N46 44.285 W63 58.096	9 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1826	07-JUL-10 10:55:21AM	User Waypoint	N46 44.272 W63 58.063	8 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1827	07-JUL-10 10:56:52AM	User Waypoint	N46 44.277 W63 58.064	10 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1828	07-JUL-10 10:58:07AM	User Waypoint	N46 44.282 W63 58.073	9 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1829	07-JUL-10 10:59:57AM	User Waypoint	N46 44.289 W63 58.078	8 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1830	07-JUL-10 11:01:21AM	User Waypoint	N46 44.297 W63 58.086	8 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1831	07-JUL-10 11:04:39AM	User Waypoint	N46 44.273 W63 58.042	9 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1832	07-JUL-10 11:06:11AM	User Waypoint	N46 44.296 W63 58.054	9 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1833	07-JUL-10 11:07:39AM	User Waypoint	N46 44.303 W63 58.064	9 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1834	07-JUL-10 11:09:00AM	User Waypoint	N46 44.297 W63 58.077	9 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1835	07-JUL-10 11:10:18AM	User Waypoint	N46 44.296 W63 58.083	9 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1836	07-JUL-10 11:14:02AM	User Waypoint	N46 44.292 W63 58.038	4 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1837	07-JUL-10 11:15:53AM	User Waypoint	N46 44.298 W63 58.047	7 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1838	07-JUL-10 11:17:25AM	User Waypoint	N46 44.304 W63 58.046	6 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1839	07-JUL-10 11:18:47AM	User Waypoint	N46 44.308 W63 58.069	6 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1840	07-JUL-10 11:19:52AM	User Waypoint	N46 44.326 W63 58.090	6 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	1841	13-OCT-10 10:03:22AM	User Waypoint	N46 05.879 W63 13.659	5 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1842	13-OCT-10 10:05:02AM	User Waypoint	N46 05.878 W63 13.673	5 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1843	13-OCT-10 10:06:27AM	User Waypoint	N46 05.886 W63 13.678	7 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1844	13-OCT-10 10:08:06AM	User Waypoint	N46 05.888 W63 13.683	4 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1845	13-OCT-10 10:09:25AM	User Waypoint	N46 05.892 W63 13.702	4 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1846	13-OCT-10 9:55:07AM	User Waypoint	N46 05.880 W63 13.649	4 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1847	13-OCT-10 9:56:40AM	User Waypoint	N46 05.901 W63 13.642	4 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1848	13-OCT-10 9:58:18AM	User Waypoint	N46 05.887 W63 13.663	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1849	13-OCT-10 9:59:49AM	User Waypoint	N46 05.894 W63 13.680	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1850	13-OCT-10 10:01:23AM	User Waypoint	N46 05.902 W63 13.667	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1851	13-OCT-10 9:47:14AM	User Waypoint	N46 05.896 W63 13.640	4 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1852	13-OCT-10 9:48:44AM	User Waypoint	N46 05.902 W63 13.643	3 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1853	13-OCT-10 9:50:32AM	User Waypoint	N46 05.898 W63 13.667	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1854	13-OCT-10 9:51:50AM	User Waypoint	N46 05.906 W63 13.681	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1855	13-OCT-10 9:53:07AM	User Waypoint	N46 05.920 W63 13.693	5 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1856	13-OCT-10 9:39:04AM	User Waypoint	N46 05.907 W63 13.623	4 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1857	13-OCT-10 9:40:34AM	User Waypoint	N46 05.916 W63 13.630	5 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1858	13-OCT-10 9:42:05AM	User Waypoint	N46 05.921 W63 13.651	7 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1859	13-OCT-10 9:43:34AM	User Waypoint	N46 05.924 W63 13.665	9 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1860	13-OCT-10 9:45:17AM	User Waypoint	N46 05.928 W63 13.677	3 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1861	13-OCT-10 9:31:03AM	User Waypoint	N46 05.918 W63 13.616	5 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1862	13-OCT-10 9:32:43AM	User Waypoint	N46 05.928 W63 13.616	2 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1863	13-OCT-10 9:34:28AM	User Waypoint	N46 05.928 W63 13.643	2 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1864	13-OCT-10 9:35:58AM	User Waypoint	N46 05.938 W63 13.658	2 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1865	13-OCT-10 9:37:18AM	User Waypoint	N46 05.941 W63 13.671	5 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1866	13-OCT-10 9:22:46AM	User Waypoint	N46 05.922 W63 13.604	1 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1867	13-OCT-10 9:24:56AM	User Waypoint	N46 05.938 W63 13.624	2 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1868	13-OCT-10 9:26:14AM	User Waypoint	N46 05.939 W63 13.641	1 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1869	13-OCT-10 9:27:40AM	User Waypoint	N46 05.950 W63 13.651	4 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1870	13-OCT-10 9:29:02AM	User Waypoint	N46 05.951 W63 13.675	5 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1871	14-JUL-10 11:15:10AM	User Waypoint	N46 56.511 W64 11.258	2 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1872	14-JUL-10 11:13:50AM	User Waypoint	N46 56.528 W64 11.242	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1873	14-JUL-10 11:11:57AM	User Waypoint	N46 56.533 W64 11.227	7 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1874	14-JUL-10 11:24:32AM	User Waypoint	N46 56.499 W64 11.254	1 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1875	14-JUL-10 11:10:09AM	User Waypoint	N46 56.538 W64 11.215	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1876	14-JUL-10 11:08:10AM	User Waypoint	N46 56.541 W64 11.208	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1877	14-JUL-10 11:23:27AM	User Waypoint	N46 56.513 W64 11.232	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1878	14-JUL-10 11:21:12AM	User Waypoint	N46 56.516 W64 11.227	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1879	14-JUL-10 11:20:04AM	User Waypoint	N46 56.522 W64 11.218	6 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1880	14-JUL-10 11:18:41AM	User Waypoint	N46 56.527 W64 11.211	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1881	14-JUL-10 11:32:22AM	User Waypoint	N46 56.489 W64 11.245	1 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1882	14-JUL-10 11:31:13AM	User Waypoint	N46 56.495 W64 11.235	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1883	14-JUL-10 11:30:01AM	User Waypoint	N46 56.499 W64 11.220	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1884	14-JUL-10 11:29:23AM	User Waypoint	N46 56.504 W64 11.209	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1885	14-JUL-10 11:28:37AM	User Waypoint	N46 56.512 W64 11.196	2 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1886	14-JUL-10 11:40:31AM	User Waypoint	N46 56.476 W64 11.236	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1887	14-JUL-10 11:39:54AM	User Waypoint	N46 56.479 W64 11.231	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1888	14-JUL-10 11:38:40AM	User Waypoint	N46 56.483 W64 11.227	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1889	14-JUL-10 11:37:21AM	User Waypoint	N46 56.494 W64 11.214	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1890	14-JUL-10 11:36:39AM	User Waypoint	N46 56.499 W64 11.201	2 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1891	14-JUL-10 11:48:05AM	User Waypoint	N46 56.512 W64 11.255	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1892	14-JUL-10 11:47:31AM	User Waypoint	N46 56.518 W64 11.251	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1893	14-JUL-10 11:47:07AM	User Waypoint	N46 56.527 W64 11.242	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1894	14-JUL-10 11:46:20AM	User Waypoint	N46 56.536 W64 11.230	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1895	14-JUL-10 11:45:12AM	User Waypoint	N46 56.544 W64 11.218	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1896	14-JUL-10 11:58:45AM	User Waypoint	N46 56.474 W64 11.253	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1897	14-JUL-10 11:57:55AM	User Waypoint	N46 56.472 W64 11.231	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1898	14-JUL-10 11:57:26AM	User Waypoint	N46 56.478 W64 11.220	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1899	14-JUL-10 11:56:57AM	User Waypoint	N46 56.482 W64 11.213	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1900	14-JUL-10 11:56:17AM	User Waypoint	N46 56.488 W64 11.206	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+
+
+Header	Name	Length	Course	Waypoints	Link
+
+Route	1706 to 1780	88 m	305° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1706	0 m
+Route Waypoint	1777	29 m	29 m	326° true
+Route Waypoint	1778	53 m	24 m	311° true
+Route Waypoint	1779	65 m	12 m	248° true
+Route Waypoint	1780	88 m	23 m	299° true
+
+Route	1717 to 1721	70 m	268° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1717	0 m
+Route Waypoint	1718	14 m	14 m	276° true
+Route Waypoint	1719	24 m	10 m	227° true
+Route Waypoint	1720	65 m	41 m	271° true
+Route Waypoint	1721	70 m	5 m	60° true
+
+Route	1722 to 1726	74 m	288° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1722	0 m
+Route Waypoint	1723	15 m	15 m	275° true
+Route Waypoint	1724	22 m	8 m	253° true
+Route Waypoint	1725	42 m	20 m	326° true
+Route Waypoint	1726	74 m	32 m	279° true
+
+Route	1727 to 1731	103 m	298° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1727	0 m
+Route Waypoint	1728	26 m	26 m	307° true
+Route Waypoint	1729	52 m	26 m	287° true
+Route Waypoint	1730	69 m	17 m	290° true
+Route Waypoint	1731	103 m	34 m	302° true
+
+Route	1732 to 1736	95 m	292° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1732	0 m
+Route Waypoint	1733	26 m	26 m	303° true
+Route Waypoint	1734	52 m	26 m	296° true
+Route Waypoint	1735	75 m	23 m	289° true
+Route Waypoint	1736	95 m	20 m	276° true
+
+Route	1737 to 1741	104 m	309° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1737	0 m
+Route Waypoint	1738	10 m	10 m	275° true
+Route Waypoint	1739	27 m	16 m	302° true
+Route Waypoint	1740	73 m	47 m	306° true
+Route Waypoint	1741	104 m	31 m	326° true
+
+Route	1742 to 1746	71 m	301° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1742	0 m
+Route Waypoint	1743	25 m	25 m	293° true
+Route Waypoint	1744	37 m	13 m	311° true
+Route Waypoint	1745	45 m	8 m	305° true
+Route Waypoint	1746	71 m	26 m	301° true
+
+Route	1747 to 1751	151 m	0° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1747	0 m
+Route Waypoint	1748	19 m	19 m	122° true
+Route Waypoint	1749	35 m	15 m	295° true
+Route Waypoint	1750	52 m	17 m	170° true
+Route Waypoint	1751	151 m	99 m	357° true
+
+Route	1756 to 1752	99 m	173° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1756	0 m
+Route Waypoint	1755	26 m	26 m	164° true
+Route Waypoint	1754	48 m	23 m	164° true
+Route Waypoint	1753	66 m	18 m	179° true
+Route Waypoint	1752	99 m	33 m	182° true
+
+Route	1761 to 1757	104 m	195° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1761	0 m
+Route Waypoint	1760	36 m	36 m	178° true
+Route Waypoint	1759	52 m	17 m	272° true
+Route Waypoint	1758	79 m	26 m	183° true
+Route Waypoint	1757	104 m	25 m	193° true
+
+Route	1766 to 1762	89 m	188° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1766	0 m
+Route Waypoint	1765	22 m	22 m	210° true
+Route Waypoint	1764	35 m	13 m	160° true
+Route Waypoint	1763	46 m	11 m	176° true
+Route Waypoint	1762	89 m	43 m	187° true
+
+Route	1771 to 1767	66 m	196° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1771	0 m
+Route Waypoint	1770	16 m	16 m	264° true
+Route Waypoint	1769	35 m	19 m	198° true
+Route Waypoint	1768	59 m	25 m	172° true
+Route Waypoint	1767	66 m	6 m	144° true
+
+Route	1775 to 1776	77 m	183° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1775	0 m
+Route Waypoint	1774	25 m	25 m	185° true
+Route Waypoint	1773	37 m	12 m	221° true
+Route Waypoint	1772	57 m	20 m	179° true
+Route Waypoint	1776	77 m	20 m	161° true
+
+Route	1785 to 1781	64 m	147° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1785	0 m
+Route Waypoint	1784	20 m	20 m	146° true
+Route Waypoint	1783	32 m	13 m	112° true
+Route Waypoint	1782	42 m	9 m	148° true
+Route Waypoint	1781	64 m	22 m	167° true
+
+Route	1786 to 1790	57 m	316° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1786	0 m
+Route Waypoint	1787	23 m	23 m	311° true
+Route Waypoint	1788	31 m	8 m	346° true
+Route Waypoint	1789	42 m	11 m	323° true
+Route Waypoint	1790	57 m	15 m	302° true
+
+Route	1791 to 1795	83 m	319° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1791	0 m
+Route Waypoint	1792	18 m	18 m	351° true
+Route Waypoint	1793	40 m	23 m	318° true
+Route Waypoint	1794	57 m	16 m	299° true
+Route Waypoint	1795	83 m	26 m	311° true
+
+Route	1796 to 1800	39 m	289° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1796	0 m
+Route Waypoint	1797	4 m	4 m	320° true
+Route Waypoint	1798	16 m	12 m	279° true
+Route Waypoint	1799	21 m	5 m	253° true
+Route Waypoint	1800	39 m	18 m	300° true
+
+Route	1801 to 1805	99 m	315° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1801	0 m
+Route Waypoint	1802	22 m	22 m	315° true
+Route Waypoint	1803	35 m	13 m	343° true
+Route Waypoint	1804	66 m	30 m	258° true
+Route Waypoint	1805	99 m	33 m	350° true
+
+Route	1810 to 1806	80 m	197° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1810	0 m
+Route Waypoint	1809	23 m	23 m	196° true
+Route Waypoint	1808	44 m	21 m	196° true
+Route Waypoint	1807	62 m	18 m	199° true
+Route Waypoint	1806	80 m	18 m	198° true
+
+Route	1811 to 1815	89 m	313° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1811	0 m
+Route Waypoint	1812	21 m	21 m	258° true
+Route Waypoint	1813	45 m	24 m	345° true
+Route Waypoint	1814	70 m	25 m	328° true
+Route Waypoint	1815	89 m	19 m	304° true
+
+Route	1816 to 1820	75 m	306° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1816	0 m
+Route Waypoint	1817	33 m	33 m	291° true
+Route Waypoint	1818	41 m	7 m	286° true
+Route Waypoint	1819	61 m	21 m	328° true
+Route Waypoint	1820	75 m	14 m	319° true
+
+Route	1821 to 1825	87 m	340° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1821	0 m
+Route Waypoint	1822	30 m	30 m	325° true
+Route Waypoint	1823	58 m	28 m	355° true
+Route Waypoint	1824	77 m	19 m	348° true
+Route Waypoint	1825	87 m	10 m	328° true
+
+Route	1826 to 1830	56 m	327° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1826	0 m
+Route Waypoint	1827	10 m	10 m	351° true
+Route Waypoint	1828	24 m	14 m	308° true
+Route Waypoint	1829	39 m	16 m	336° true
+Route Waypoint	1830	56 m	17 m	321° true
+
+Route	1831 to 1835	91 m	309° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1831	0 m
+Route Waypoint	1832	45 m	45 m	339° true
+Route Waypoint	1833	63 m	18 m	318° true
+Route Waypoint	1834	83 m	20 m	233° true
+Route Waypoint	1835	91 m	8 m	267° true
+
+Route	1836 to 1840	101 m	314° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1836	0 m
+Route Waypoint	1837	16 m	16 m	316° true
+Route Waypoint	1838	26 m	10 m	9° true
+Route Waypoint	1839	57 m	31 m	284° true
+Route Waypoint	1840	101 m	44 m	323° true
+
+Route	1845 to 1841	67 m	113° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1845	0 m
+Route Waypoint	1844	26 m	26 m	107° true
+Route Waypoint	1843	34 m	7 m	123° true
+Route Waypoint	1842	49 m	15 m	158° true
+Route Waypoint	1841	67 m	18 m	84° true
+
+Route	1850 to 1846	122 m	149° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1850	0 m
+Route Waypoint	1849	23 m	23 m	226° true
+Route Waypoint	1848	48 m	25 m	120° true
+Route Waypoint	1847	84 m	36 m	47° true
+Route Waypoint	1846	122 m	38 m	192° true
+
+Route	1855 to 1851	94 m	123° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1855	0 m
+Route Waypoint	1854	30 m	30 m	149° true
+Route Waypoint	1853	52 m	22 m	129° true
+Route Waypoint	1852	84 m	32 m	80° true
+Route Waypoint	1851	94 m	10 m	162° true
+
+Route	1860 to 1856	85 m	119° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1860	0 m
+Route Waypoint	1859	18 m	18 m	115° true
+Route Waypoint	1858	36 m	19 m	103° true
+Route Waypoint	1857	65 m	29 m	111° true
+Route Waypoint	1856	85 m	20 m	151° true
+
+Route	1861 to 1865	97 m	301° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1861	0 m
+Route Waypoint	1862	18 m	18 m	2° true
+Route Waypoint	1863	53 m	35 m	273° true
+Route Waypoint	1864	79 m	26 m	312° true
+Route Waypoint	1865	97 m	18 m	289° true
+
+Route	1870 to 1866	116 m	121° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1870	0 m
+Route Waypoint	1869	31 m	31 m	95° true
+Route Waypoint	1868	54 m	24 m	146° true
+Route Waypoint	1867	77 m	23 m	95° true
+Route Waypoint	1866	116 m	39 m	140° true
+
+Route	1876 to 1871	87 m	228° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1876	0 m
+Route Waypoint	1875	11 m	11 m	237° true
+Route Waypoint	1873	27 m	16 m	240° true
+Route Waypoint	1872	49 m	22 m	243° true
+Route Waypoint	1871	87 m	38 m	212° true
+
+Route	1880 to 1874	76 m	226° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1880	0 m
+Route Waypoint	1879	12 m	12 m	224° true
+Route Waypoint	1878	29 m	17 m	224° true
+Route Waypoint	1877	38 m	9 m	229° true
+Route Waypoint	1874	76 m	38 m	226° true
+
+Route	1885 to 1881	77 m	236° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1885	0 m
+Route Waypoint	1884	21 m	21 m	230° true
+Route Waypoint	1883	39 m	18 m	234° true
+Route Waypoint	1882	60 m	21 m	251° true
+Route Waypoint	1881	77 m	17 m	226° true
+
+Route	1890 to 1886	63 m	226° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1890	0 m
+Route Waypoint	1889	19 m	19 m	236° true
+Route Waypoint	1888	46 m	26 m	219° true
+Route Waypoint	1887	55 m	9 m	216° true
+Route Waypoint	1886	63 m	9 m	233° true
+
+Route	1895 to 1891	75 m	219° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1895	0 m
+Route Waypoint	1894	21 m	21 m	229° true
+Route Waypoint	1893	44 m	23 m	222° true
+Route Waypoint	1892	64 m	20 m	212° true
+Route Waypoint	1891	75 m	11 m	206° true
+
+Route	1900 to 1896	72 m	247° true	5 waypoints	
+
+Header	Waypoint Name	Distance	Leg Length	Course
+
+Route Waypoint	1900	0 m
+Route Waypoint	1899	15 m	15 m	217° true
+Route Waypoint	1898	26 m	11 m	231° true
+Route Waypoint	1897	43 m	17 m	232° true
+Route Waypoint	1896	72 m	29 m	278° true
+

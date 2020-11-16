@@ -1,0 +1,190 @@
+Grid	Lat/Lon hddd°mm.mmm'
+Datum	WGS 84
+
+Header	Name	Description	Type	Position	Altitude	Depth	Proximity	Temperature	Display Mode	Color	Symbol	Facility	City	State	Country	Date Modified	Link	Categories
+
+Waypoint	0553	05-JUL-11 12:07:04PM	User Waypoint	N46 18.030 W62 20.280	9 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	0554	05-JUL-11 4:19:13PM	User Waypoint	N46 26.536 W63 09.424	4 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	0555	05-JUL-11 4:20:02PM	User Waypoint	N46 26.537 W63 09.427	5 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	0556	05-JUL-11 4:07:18PM	User Waypoint	N46 26.542 W63 09.378	6 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	0557	05-JUL-11 4:38:46PM	User Waypoint	N46 26.504 W63 09.436	4 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	0558	05-JUL-11 4:17:46PM	User Waypoint	N46 26.534 W63 09.413	3 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	0559	06-JUL-11 9:35:01AM	User Waypoint	N46 44.243 W63 58.131	2 m				Symbol & Name	Unknown	City (Small)		Alberton			7/7/2011 3:09:22 PM 		
+Waypoint	0560	06-JUL-11 9:37:12AM	User Waypoint	N46 44.246 W63 58.140	1 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0561	06-JUL-11 9:35:53AM	User Waypoint	N46 44.254 W63 58.131	1 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0562	06-JUL-11 9:16:03AM	User Waypoint	N46 44.239 W63 58.198	1 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0563	06-JUL-11 9:14:57AM	User Waypoint	N46 44.235 W63 58.194	4 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0564	06-JUL-11 9:10:08AM	User Waypoint	N46 44.237 W63 58.206	3 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0565	06-JUL-11 9:08:48AM	User Waypoint	N46 44.229 W63 58.204	3 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0566	06-JUL-11 9:19:46AM	User Waypoint	N46 44.258 W63 58.182	-1 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0567	06-JUL-11 9:18:14AM	User Waypoint	N46 44.266 W63 58.207	-0 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0568	06-JUL-11 9:17:07AM	User Waypoint	N46 44.252 W63 58.201	-3 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0569	06-JUL-11 9:27:52AM	User Waypoint	N46 44.235 W63 58.152	2 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0570	06-JUL-11 9:26:32AM	User Waypoint	N46 44.236 W63 58.160	2 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0571	06-JUL-11 9:22:54AM	User Waypoint	N46 44.258 W63 58.174	6 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0572	06-JUL-11 9:32:53AM	User Waypoint	N46 44.228 W63 58.133	3 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0573	06-JUL-11 9:34:20AM	User Waypoint	N46 44.235 W63 58.128	2 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0574	06-JUL-11 9:59:22AM	User Waypoint	N46 44.263 W63 58.076	0 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0575	06-JUL-11 9:41:42AM	User Waypoint	N46 44.234 W63 58.090	2 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0576	06-JUL-11 9:45:11AM	User Waypoint	N46 44.250 W63 58.109	1 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0577	06-JUL-11 9:54:07AM	User Waypoint	N46 44.226 W63 58.069	4 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0578	06-JUL-11 9:55:18AM	User Waypoint	N46 44.227 W63 58.072	3 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0579	06-JUL-11 9:43:46AM	User Waypoint	N46 44.249 W63 58.111	3 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0580	06-JUL-11 9:25:34AM	User Waypoint	N46 44.236 W63 58.161	3 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0581	06-JUL-11 9:40:32AM	User Waypoint	N46 44.228 W63 58.095	5 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0582	06-JUL-11 9:11:10AM	User Waypoint	N46 44.240 W63 58.222	4 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0583	06-JUL-11 9:12:21AM	User Waypoint	N46 44.252 W63 58.247	2 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0584	06-JUL-11 9:06:18AM	User Waypoint	N46 44.262 W63 58.237	1 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0585	06-JUL-11 9:24:19AM	User Waypoint	N46 44.241 W63 58.156	3 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0586	06-JUL-11 9:42:48AM	User Waypoint	N46 44.242 W63 58.108	2 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0587	06-JUL-11 9:56:39AM	User Waypoint	N46 44.238 W63 58.081	3 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0588	06-JUL-11 9:57:51AM	User Waypoint	N46 44.256 W63 58.091	3 m				Symbol & Name	Unknown	City (Small)		Alberton					
+Waypoint	0589	13-JUL-11 11:23:08AM	User Waypoint	N46 06.160 W63 13.475	8 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	0590	13-JUL-11 11:10:05AM	User Waypoint	N46 06.161 W63 13.496	7 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	0591	18-JUL-11 10:12:17AM	User Waypoint	N46 03.881 W62 27.153	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1706	05-JUL-11 12:32:17PM	User Waypoint	N46 18.024 W62 20.258	7 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1718	05-JUL-11 4:57:05PM	User Waypoint	N46 26.494 W63 09.462	2 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1720	05-JUL-11 4:51:59PM	User Waypoint	N46 26.501 W63 09.437	0 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1721	05-JUL-11 4:58:13PM	User Waypoint	N46 26.489 W63 09.437	1 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1722	05-JUL-11 4:31:16PM	User Waypoint	N46 26.530 W63 09.440	1 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1723	05-JUL-11 4:39:19PM	User Waypoint	N46 26.510 W63 09.447	5 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1724	05-JUL-11 4:29:34PM	User Waypoint	N46 26.519 W63 09.395	1 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1725	05-JUL-11 4:58:44PM	User Waypoint	N46 26.484 W63 09.425	1 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1726	05-JUL-11 4:08:28PM	User Waypoint	N46 26.533 W63 09.370	5 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1727	05-JUL-11 4:28:29PM	User Waypoint	N46 26.514 W63 09.393	3 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1728	05-JUL-11 4:36:50PM	User Waypoint	N46 26.508 W63 09.414	3 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1729	05-JUL-11 4:36:02PM	User Waypoint	N46 26.502 W63 09.397	2 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1730	05-JUL-11 4:50:20PM	User Waypoint	N46 26.496 W63 09.407	2 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1731	05-JUL-11 4:11:49PM	User Waypoint	N46 26.550 W63 09.422	5 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1732	05-JUL-11 4:32:03PM	User Waypoint	N46 26.532 W63 09.462	3 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1733	05-JUL-11 4:56:29PM	User Waypoint	N46 26.498 W63 09.475	2 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1734	05-JUL-11 4:57:35PM	User Waypoint	N46 26.489 W63 09.454	2 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1735	05-JUL-11 4:30:27PM	User Waypoint	N46 26.525 W63 09.423	2 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1736	05-JUL-11 4:53:48PM	User Waypoint	N46 26.509 W63 09.463	-0 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1737	05-JUL-11 4:49:27PM	User Waypoint	N46 26.493 W63 09.397	4 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1738	05-JUL-11 4:16:07PM	User Waypoint	N46 26.529 W63 09.381	6 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1742	05-JUL-11 4:52:51PM	User Waypoint	N46 26.506 W63 09.449	-0 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1743	05-JUL-11 4:09:23PM	User Waypoint	N46 26.538 W63 09.384	6 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1744	05-JUL-11 4:37:40PM	User Waypoint	N46 26.507 W63 09.430	3 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1745	05-JUL-11 4:10:53PM	User Waypoint	N46 26.546 W63 09.403	6 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1746	05-JUL-11 4:16:52PM	User Waypoint	N46 26.532 W63 09.399	5 m				Symbol & Name	Unknown	City (Small)		Covehead					
+Waypoint	1747	18-JUL-11 10:19:10AM	User Waypoint	N46 03.862 W62 27.220	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1748	18-JUL-11 10:16:30AM	User Waypoint	N46 03.820 W62 27.201	5 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1749	18-JUL-11 10:09:11AM	User Waypoint	N46 03.835 W62 27.167	8 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1750	18-JUL-11 10:37:14AM	User Waypoint	N46 03.824 W62 27.277	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1751	18-JUL-11 10:17:15AM	User Waypoint	N46 03.831 W62 27.199	7 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1752	18-JUL-11 10:01:40AM	User Waypoint	N46 03.854 W62 27.126	8 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1753	18-JUL-11 10:11:36AM	User Waypoint	N46 03.869 W62 27.156	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1754	18-JUL-11 10:47:26AM	User Waypoint	N46 03.860 W62 27.301	7 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1755	18-JUL-11 9:59:04AM	User Waypoint	N46 03.839 W62 27.138	9 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1756	18-JUL-11 10:28:11AM	User Waypoint	N46 03.857 W62 27.236	7 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1758	18-JUL-11 10:46:26AM	User Waypoint	N46 03.855 W62 27.301	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1759	18-JUL-11 10:36:46AM	User Waypoint	N46 03.816 W62 27.281	7 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1760	18-JUL-11 10:00:40AM	User Waypoint	N46 03.849 W62 27.126	8 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1761	18-JUL-11 10:11:10AM	User Waypoint	N46 03.858 W62 27.162	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1762	18-JUL-11 10:20:34AM	User Waypoint	N46 03.877 W62 27.198	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1763	18-JUL-11 10:17:49AM	User Waypoint	N46 03.836 W62 27.202	7 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1764	18-JUL-11 10:38:18AM	User Waypoint	N46 03.842 W62 27.272	9 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1765	18-JUL-11 10:44:55AM	User Waypoint	N46 03.825 W62 27.298	8 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1766	18-JUL-11 10:39:39AM	User Waypoint	N46 03.854 W62 27.276	7 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1767	18-JUL-11 10:29:07AM	User Waypoint	N46 03.869 W62 27.235	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1768	18-JUL-11 10:26:21AM	User Waypoint	N46 03.835 W62 27.224	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1769	18-JUL-11 10:44:08AM	User Waypoint	N46 03.815 W62 27.299	7 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1770	18-JUL-11 10:09:49AM	User Waypoint	N46 03.844 W62 27.159	8 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1771	18-JUL-11 10:03:26AM	User Waypoint	N46 03.865 W62 27.131	8 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1772	18-JUL-11 10:25:45AM	User Waypoint	N46 03.824 W62 27.231	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1773	18-JUL-11 10:45:29AM	User Waypoint	N46 03.839 W62 27.294	8 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1774	18-JUL-11 10:05:26AM	User Waypoint	N46 03.885 W62 27.114	6 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1775	18-JUL-11 10:37:45AM	User Waypoint	N46 03.833 W62 27.275	8 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1776	18-JUL-11 10:27:48AM	User Waypoint	N46 03.850 W62 27.239	7 m				Symbol & Name	Unknown	City (Small)		Murray Harbour					
+Waypoint	1777	05-JUL-11 11:40:17AM	User Waypoint	N46 18.065 W62 18.366	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1778	05-JUL-11 1:02:54PM	User Waypoint	N46 18.053 W62 20.242	5 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1779	05-JUL-11 1:04:27PM	User Waypoint	N46 18.059 W62 20.259	6 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1780	05-JUL-11 11:38:35AM	User Waypoint	N46 18.041 W62 18.362	6 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1782	05-JUL-11 1:02:15PM	User Waypoint	N46 18.048 W62 20.235					Symbol & Name	Unknown	City (Small)		Fortune			7/7/2011 1:30:53 PM 		
+Waypoint	1783	05-JUL-11 1:11:53PM	User Waypoint	N46 18.066 W62 20.229	4 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1784	05-JUL-11 12:30:55PM	User Waypoint	N46 18.037 W62 20.271	8 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1785	05-JUL-11 11:56:23AM	User Waypoint	N46 18.013 W62 20.283	10 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1786	05-JUL-11 11:59:00AM	User Waypoint	N46 18.015 W62 20.280	9 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1787	05-JUL-11 12:36:19PM	User Waypoint	N46 18.030 W62 20.255	8 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1788	05-JUL-11 12:33:50PM	User Waypoint	N46 18.025 W62 20.266	9 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1789	05-JUL-11 11:42:23AM	User Waypoint	N46 18.091 W62 18.370	5 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1790	05-JUL-11 12:47:20PM	User Waypoint	N46 18.032 W62 20.242	6 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1791	05-JUL-11 1:10:52PM	User Waypoint	N46 18.062 W62 20.229	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1792	05-JUL-11 11:58:26AM	User Waypoint	N46 18.008 W62 20.283	9 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1793	05-JUL-11 1:13:00PM	User Waypoint	N46 18.048 W62 20.217	1 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1794	05-JUL-11 12:45:12PM	User Waypoint	N46 18.054 W62 20.265	6 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1795	05-JUL-11 12:22:18PM	User Waypoint	N46 18.016 W62 20.261	7 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1796	05-JUL-11 1:01:29PM	User Waypoint	N46 18.043 W62 20.230					Symbol & Name	Unknown	City (Small)		Fortune			7/7/2011 1:30:13 PM 		
+Waypoint	1797	05-JUL-11 11:57:07AM	User Waypoint	N46 18.019 W62 20.287	10 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1798	05-JUL-11 12:49:47PM	User Waypoint	N46 18.030 W62 20.260	6 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1799	05-JUL-11 1:09:05PM	User Waypoint	N46 18.075 W62 20.235	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1800	05-JUL-11 11:59:59AM	User Waypoint	N46 18.012 W62 20.292	7 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1801	05-JUL-11 12:58:52PM	User Waypoint	N46 18.065 W62 20.261	5 m				Symbol & Name	Unknown	City (Small)		Fortune			7/7/2011 1:31:21 PM 		
+Waypoint	1802	05-JUL-11 1:10:01PM	User Waypoint	N46 18.069 W62 20.231	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1803	05-JUL-11 11:41:06AM	User Waypoint	N46 18.087 W62 18.365	4 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1804	05-JUL-11 12:07:54PM	User Waypoint	N46 18.027 W62 20.278	9 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1805	05-JUL-11 11:39:13AM	User Waypoint	N46 18.058 W62 18.362	5 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1806	05-JUL-11 12:18:26PM	User Waypoint	N46 18.013 W62 20.266	5 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1807	05-JUL-11 12:25:19PM	User Waypoint	N46 18.008 W62 20.251	8 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1808	05-JUL-11 12:34:46PM	User Waypoint	N46 18.017 W62 20.255	9 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1809	05-JUL-11 12:46:19PM	User Waypoint	N46 18.055 W62 20.264	6 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1810	05-JUL-11 12:51:16PM	User Waypoint	N46 18.023 W62 20.244	3 m				Symbol & Name	Unknown	City (Small)		Fortune					
+Waypoint	1841	13-JUL-11 11:21:45AM	User Waypoint	N46 06.183 W63 13.475	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1842	13-JUL-11 11:04:26AM	User Waypoint	N46 06.163 W63 13.516	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1843	13-JUL-11 11:17:44AM	User Waypoint	N46 06.147 W63 13.483	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1844	13-JUL-11 11:29:31AM	User Waypoint	N46 06.171 W63 13.449	8 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1845	13-JUL-11 11:35:33AM	User Waypoint	N46 06.178 W63 13.431	7 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1846	13-JUL-11 11:30:59AM	User Waypoint	N46 06.157 W63 13.449	9 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1847	13-JUL-11 11:30:20AM	User Waypoint	N46 06.161 W63 13.449	10 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1848	13-JUL-11 11:15:30AM	User Waypoint	N46 06.184 W63 13.479	3 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1849	13-JUL-11 11:36:16AM	User Waypoint	N46 06.171 W63 13.433	9 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1850	13-JUL-11 11:37:42AM	User Waypoint	N46 06.142 W63 13.432	7 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1851	13-JUL-11 11:03:52AM	User Waypoint	N46 06.169 W63 13.515	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1852	13-JUL-11 11:18:26AM	User Waypoint	N46 06.136 W63 13.482	9 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1853	13-JUL-11 11:38:34AM	User Waypoint	N46 06.126 W63 13.427	4 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1854	13-JUL-11 11:36:58AM	User Waypoint	N46 06.155 W63 13.435	7 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1855	13-JUL-11 11:28:49AM	User Waypoint	N46 06.182 W63 13.450	7 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1856	13-JUL-11 11:08:41AM	User Waypoint	N46 06.186 W63 13.494	7 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1857	13-JUL-11 11:10:43AM	User Waypoint	N46 06.152 W63 13.497	9 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1858	13-JUL-11 11:05:07AM	User Waypoint	N46 06.151 W63 13.516	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1859	13-JUL-11 11:16:07AM	User Waypoint	N46 06.174 W63 13.481	5 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1860	13-JUL-11 11:17:01AM	User Waypoint	N46 06.158 W63 13.482	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1861	18.0 ft - 36.1 ft	User Waypoint	N46 06.184 W63 13.513					Symbol & Name	Unknown	City (Small)		Nine Mile Creek			7/14/2011 9:21:32 AM 		
+Waypoint	1862	13-JUL-11 11:03:44AM	User Waypoint	N46 06.172 W63 13.515	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1863	13-JUL-11 11:11:21AM	User Waypoint	N46 06.140 W63 13.498	8 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1865	13-JUL-11 11:23:50AM	User Waypoint	N46 06.146 W63 13.473	6 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1866	13-JUL-11 11:09:14AM	User Waypoint	N46 06.176 W63 13.495	7 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1868	13-JUL-11 11:24:37AM	User Waypoint	N46 06.134 W63 13.469	7 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1869	13-JUL-11 11:31:45AM	User Waypoint	N46 06.136 W63 13.445	8 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1870	13-JUL-11 11:22:23AM	User Waypoint	N46 06.173 W63 13.475	7 m				Symbol & Name	Unknown	City (Small)		Nine Mile Creek					
+Waypoint	1871	22-JUL-11 1:52:27PM	User Waypoint	N46 56.508 W64 11.249	1 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1872	22-JUL-11 2:07:20PM	User Waypoint	N46 56.458 W64 11.243	1 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1873	22-JUL-11 2:01:57PM	User Waypoint	N46 56.458 W64 11.246	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1874	22-JUL-11 1:52:18PM	User Waypoint	N46 56.499 W64 11.257	2 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1875	22-JUL-11 2:07:54PM	User Waypoint	N46 56.481 W64 11.203	1 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1877	22-JUL-11 2:02:18PM	User Waypoint	N46 56.475 W64 11.217	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1878	22-JUL-11 2:07:50PM	User Waypoint	N46 56.477 W64 11.208	1 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1879	22-JUL-11 1:55:24PM	User Waypoint	N46 56.482 W64 11.249	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1880	22-JUL-11 1:57:45PM	User Waypoint	N46 56.483 W64 11.233	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1881	22-JUL-11 1:57:59PM	User Waypoint	N46 56.493 W64 11.216	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1882	22-JUL-11 2:12:16PM	User Waypoint	N46 56.458 W64 11.211	6 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1883	22-JUL-11 2:07:44PM	User Waypoint	N46 56.473 W64 11.215	2 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1884	22-JUL-11 1:55:18PM	User Waypoint	N46 56.480 W64 11.255	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1885	22-JUL-11 1:51:07PM	User Waypoint	N46 56.491 W64 11.278	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1886	22-JUL-11 2:12:10PM	User Waypoint	N46 56.454 W64 11.218	6 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1887	22-JUL-11 2:12:26PM	User Waypoint	N46 56.464 W64 11.199	6 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1888	22-JUL-11 2:07:27PM	User Waypoint	N46 56.463 W64 11.234	2 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1889	22-JUL-11 1:55:11PM	User Waypoint	N46 56.478 W64 11.261	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1890	22-JUL-11 1:51:01PM	User Waypoint	N46 56.490 W64 11.282	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1891	22-JUL-11 1:55:34PM	User Waypoint	N46 56.489 W64 11.237	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1892	22-JUL-11 2:02:11PM	User Waypoint	N46 56.469 W64 11.227	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1893	22-JUL-11 1:57:39PM	User Waypoint	N46 56.478 W64 11.241	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1894	22-JUL-11 2:02:02PM	User Waypoint	N46 56.462 W64 11.239	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1895	22-JUL-11 2:12:00PM	User Waypoint	N46 56.450 W64 11.230	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1896	22-JUL-11 1:51:13PM	User Waypoint	N46 56.492 W64 11.275	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1897	22-JUL-11 1:55:04PM	User Waypoint	N46 56.476 W64 11.268	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1898	22-JUL-11 2:01:48PM	User Waypoint	N46 56.453 W64 11.257	3 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1899	22-JUL-11 1:57:51PM	User Waypoint	N46 56.487 W64 11.226	5 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+Waypoint	1900	22-JUL-11 1:57:30PM	User Waypoint	N46 56.471 W64 11.252	4 m				Symbol & Name	Unknown	City (Small)		Skinners Pond					
+

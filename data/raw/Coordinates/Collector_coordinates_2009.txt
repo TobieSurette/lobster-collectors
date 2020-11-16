@@ -1,0 +1,182 @@
+Grid	Lat/Lon hddd°mm.mmm'
+Datum	WGS 84
+
+Header	Name	Description	Type	Position	Altitude	Depth	Proximity	Temperature	Display Mode	Color	Symbol	Facility	City	State	Country	Date Modified	Link	Categories
+
+Waypoint	601	02-JUL-09 11:08	User Waypoint	N46 26.558 W63 09.302	1 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	602	02-JUL-09 11:08	User Waypoint	N46 26.557 W63 09.305	1 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	603	02-JUL-09 11:08	User Waypoint	N46 26.557 W63 09.307	1 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	604	02-JUL-09 11:07	User Waypoint	N46 26.556 W63 09.308	1 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	605	02-JUL-09 11:07	User Waypoint	N46 26.555 W63 09.312	1 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	606	02-JUL-09 11:22	User Waypoint	N46 26.557 W63 09.317	1 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	607	02-JUL-09 11:22	User Waypoint	N46 26.557 W63 09.329	2 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	608	02-JUL-09 11:22	User Waypoint	N46 26.558 W63 09.334	2 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	609	02-JUL-09 11:22	User Waypoint	N46 26.558 W63 09.339	2 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	611	02-JUL-09 11:34	User Waypoint	N46 26.559 W63 09.318	2 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	612	02-JUL-09 11:34	User Waypoint	N46 26.560 W63 09.323	2 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	613	02-JUL-09 11:34	User Waypoint	N46 26.559 W63 09.327	2 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	614	02-JUL-09 11:34	User Waypoint	N46 26.559 W63 09.333	2 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	615	02-JUL-09 11:34	User Waypoint	N46 26.560 W63 09.340	2 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	616	02-JUL-09 11:40	User Waypoint	N46 26.562 W63 09.313	2 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	617	02-JUL-09 11:40	User Waypoint	N46 26.561 W63 09.316	1 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	618	02-JUL-09 11:40	User Waypoint	N46 26.560 W63 09.319	1 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	619	02-JUL-09 11:40	User Waypoint	N46 26.559 W63 09.321	1 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	620	02-JUL-09 11:40	User Waypoint	N46 26.559 W63 09.329	1 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	621	02-JUL-09 11:47	User Waypoint	N46 26.558 W63 09.315	4 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	622	02-JUL-09 11:47	User Waypoint	N46 26.557 W63 09.320	3 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	623	02-JUL-09 11:47	User Waypoint	N46 26.556 W63 09.326	3 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	624	02-JUL-09 11:48	User Waypoint	N46 26.556 W63 09.332	3 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	625	02-JUL-09 11:48	User Waypoint	N46 26.556 W63 09.338	2 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	626	02-JUL-09 11:53	User Waypoint	N46 26.555 W63 09.323	3 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	627	02-JUL-09 11:53	User Waypoint	N46 26.554 W63 09.329	3 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	628	02-JUL-09 11:53	User Waypoint	N46 26.553 W63 09.335	3 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	629	02-JUL-09 11:53	User Waypoint	N46 26.552 W63 09.340	3 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	630	02-JUL-09 11:53	User Waypoint	N46 26.551 W63 09.345	3 m				Symbol & Name	Unknown	Flag		Covehead			10/7/2009 11:47:08 AM 		
+Waypoint	631	03-JUL-09 10:22:41AM	User Waypoint	N46 18.030 W62 20.300	5 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:02:59 PM 		
+Waypoint	632	03-JUL-09 10:22:38AM	User Waypoint	N46 18.028 W62 20.296	5 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:02:54 PM 		
+Waypoint	633	03-JUL-09 10:22:34AM	User Waypoint	N46 18.026 W62 20.291	5 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:02:48 PM 		
+Waypoint	635	03-JUL-09 10:22:26AM	User Waypoint	N46 18.022 W62 20.281	5 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:02:04 PM 		
+Waypoint	636	03-JUL-09 10:27:43AM	User Waypoint	N46 18.034 W62 20.289	3 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 3:59:09 PM 		
+Waypoint	637	03-JUL-09 10:27:39AM	User Waypoint	N46 18.032 W62 20.284	3 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 3:59:09 PM 		
+Waypoint	638	03-JUL-09 10:27:35AM	User Waypoint	N46 18.029 W62 20.278	3 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 3:59:09 PM 		
+Waypoint	639	03-JUL-09 10:27:31AM	User Waypoint	N46 18.027 W62 20.274	3 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 3:59:09 PM 		
+Waypoint	640	03-JUL-09 10:27:28AM	User Waypoint	N46 18.025 W62 20.271	2 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 3:59:09 PM 		
+Waypoint	641	03-JUL-09 10:36:09AM	User Waypoint	N46 18.034 W62 20.308	7 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:10:49 PM 		
+Waypoint	642	03-JUL-09 10:36:04AM	User Waypoint	N46 18.031 W62 20.304	7 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:10:54 PM 		
+Waypoint	643	03-JUL-09 10:36:00AM	User Waypoint	N46 18.028 W62 20.301	8 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:11:01 PM 		
+Waypoint	644	03-JUL-09 10:35:57AM	User Waypoint	N46 18.026 W62 20.299	9 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:11:08 PM 		
+Waypoint	645	03-JUL-09 10:35:54AM	User Waypoint	N46 18.024 W62 20.296	9 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:11:11 PM 		
+Waypoint	646	03-JUL-09 10:49:51AM	User Waypoint	N46 18.023 W62 20.297	7 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:09:56 PM 		
+Waypoint	647	03-JUL-09 10:49:47AM	User Waypoint	N46 18.021 W62 20.292	6 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:09:48 PM 		
+Waypoint	648	03-JUL-09 10:49:44AM	User Waypoint	N46 18.019 W62 20.287	6 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:09:39 PM 		
+Waypoint	649	03-JUL-09 10:49:40AM	User Waypoint	N46 18.017 W62 20.283	6 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:09:31 PM 		
+Waypoint	650	03-JUL-09 10:49:37AM	User Waypoint	N46 18.016 W62 20.279	6 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:09:16 PM 		
+Waypoint	651	03-JUL-09 10:58:01AM	User Waypoint	N46 18.015 W62 20.304	5 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:06:51 PM 		
+Waypoint	652	03-JUL-09 10:57:56AM	User Waypoint	N46 18.013 W62 20.297	5 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:06:45 PM 		
+Waypoint	653	03-JUL-09 10:57:52AM	User Waypoint	N46 18.012 W62 20.292	5 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:06:40 PM 		
+Waypoint	654	03-JUL-09 10:57:47AM	User Waypoint	N46 18.011 W62 20.288	6 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:06:35 PM 		
+Waypoint	655	03-JUL-09 10:57:44AM	User Waypoint	N46 18.010 W62 20.285	5 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:06:30 PM 		
+Waypoint	656	03-JUL-09 11:02:07AM	User Waypoint	N46 18.010 W62 20.303	7 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:07:34 PM 		
+Waypoint	657	03-JUL-09 11:02:02AM	User Waypoint	N46 18.007 W62 20.296	8 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:07:28 PM 		
+Waypoint	658	03-JUL-09 11:01:57AM	User Waypoint	N46 18.005 W62 20.288	8 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:07:23 PM 		
+Waypoint	659	03-JUL-09 11:01:53AM	User Waypoint	N46 18.003 W62 20.283	8 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:07:18 PM 		
+Waypoint	660	03-JUL-09 11:01:49AM	User Waypoint	N46 18.002 W62 20.279	7 m				Symbol & Name	Unknown	Flag		Fortune			9/29/2009 4:07:12 PM 		
+Waypoint	661	08-JUL-09 09:48	User Waypoint	N46 44.375 W63 58.263	7 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	662	08-JUL-09 09:48	User Waypoint	N46 44.371 W63 58.260	7 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	663	08-JUL-09 09:48	User Waypoint	N46 44.368 W63 58.256	7 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	664	08-JUL-09 09:48	User Waypoint	N46 44.364 W63 58.253	5 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	665	08-JUL-09 09:49	User Waypoint	N46 44.361 W63 58.250	5 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	666	08-JUL-09 09:58	User Waypoint	N46 44.386 W63 58.247	2 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	667	08-JUL-09 09:58	User Waypoint	N46 44.383 W63 58.246	2 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	668	08-JUL-09 09:58	User Waypoint	N46 44.380 W63 58.243	2 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	669	08-JUL-09 09:58	User Waypoint	N46 44.376 W63 58.242	2 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	670	08-JUL-09 09:58	User Waypoint	N46 44.374 W63 58.240	4 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	671	08-JUL-09 10:17	User Waypoint	N46 44.383 W63 58.242	0 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	672	08-JUL-09 10:17	User Waypoint	N46 44.381 W63 58.241	0 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	673	08-JUL-09 10:17	User Waypoint	N46 44.379 W63 58.239	0 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	674	08-JUL-09 10:17	User Waypoint	N46 44.377 W63 58.238	0 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	675	08-JUL-09 10:17	User Waypoint	N46 44.374 W63 58.236	1 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	676	08-JUL-09 10:26	User Waypoint	N46 44.385 W63 58.245	1 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	677	08-JUL-09 10:26	User Waypoint	N46 44.382 W63 58.241	1 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	678	08-JUL-09 10:26	User Waypoint	N46 44.380 W63 58.241	1 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	679	08-JUL-09 10:26	User Waypoint	N46 44.378 W63 58.239	2 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	680	08-JUL-09 10:26	User Waypoint	N46 44.375 W63 58.238	2 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	681	08-JUL-09 10:36	User Waypoint	N46 44.388 W63 58.229	3 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	682	08-JUL-09 10:36	User Waypoint	N46 44.384 W63 58.229	3 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	683	08-JUL-09 10:36	User Waypoint	N46 44.380 W63 58.229	3 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	684	08-JUL-09 10:36	User Waypoint	N46 44.376 W63 58.229	3 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	685	08-JUL-09 10:36	User Waypoint	N46 44.373 W63 58.229	3 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	686	08-JUL-09 10:46	User Waypoint	N46 44.397 W63 58.215	4 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	687	08-JUL-09 10:46	User Waypoint	N46 44.391 W63 58.214	4 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	688	08-JUL-09 10:46	User Waypoint	N46 44.387 W63 58.213	5 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	689	08-JUL-09 10:46	User Waypoint	N46 44.384 W63 58.212	6 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	690	08-JUL-09 10:46	User Waypoint	N46 44.381 W63 58.212	6 m				Symbol & Name	Unknown	Flag		Alberton			9/24/2009 10:02:31 AM 		
+Waypoint	691	09-JUL-09 13:59	User Waypoint	N46 03.809 W62 27.284	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:27:44 AM 		
+Waypoint	692	09-JUL-09 13:59	User Waypoint	N46 03.814 W62 27.279	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:27:47 AM 		
+Waypoint	693	09-JUL-09 13:59	User Waypoint	N46 03.818 W62 27.275	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:27:51 AM 		
+Waypoint	694	09-JUL-09 13:59	User Waypoint	N46 03.822 W62 27.271	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:27:54 AM 		
+Waypoint	695	09-JUL-09 13:59	User Waypoint	N46 03.826 W62 27.268	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:27:57 AM 		
+Waypoint	696	09-JUL-09 14:11	User Waypoint	N46 03.822 W62 27.303	2 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:26:37 AM 		
+Waypoint	697	09-JUL-09 14:11	User Waypoint	N46 03.830 W62 27.299	2 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:26:43 AM 		
+Waypoint	698	09-JUL-09 14:11	User Waypoint	N46 03.836 W62 27.296	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:26:50 AM 		
+Waypoint	699	09-JUL-09 14:11	User Waypoint	N46 03.844 W62 27.292	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:26:57 AM 		
+Waypoint	700	09-JUL-09 14:11	User Waypoint	N46 03.850 W62 27.288	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:27:04 AM 		
+Waypoint	701	09-JUL-09 14:25	User Waypoint	N46 03.828 W62 27.312	-0 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:25:52 AM 		
+Waypoint	702	09-JUL-09 14:25	User Waypoint	N46 03.836 W62 27.308	0 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:25:57 AM 		
+Waypoint	703	09-JUL-09 14:25	User Waypoint	N46 03.842 W62 27.305	-0 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:26:03 AM 		
+Waypoint	704	09-JUL-09 14:25	User Waypoint	N46 03.850 W62 27.302	-0 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:26:09 AM 		
+Waypoint	706	09-JUL-09 14:36	User Waypoint	N46 03.833 W62 27.323	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:22:56 AM 		
+Waypoint	707	09-JUL-09 14:36	User Waypoint	N46 03.840 W62 27.321	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:23:03 AM 		
+Waypoint	708	09-JUL-09 14:36	User Waypoint	N46 03.847 W62 27.316	2 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:24:47 AM 		
+Waypoint	709	09-JUL-09 14:36	User Waypoint	N46 03.855 W62 27.312	2 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:24:53 AM 		
+Waypoint	711	09-JUL-09 14:47	User Waypoint	N46 03.844 W62 27.334	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:20:00 AM 		
+Waypoint	712	09-JUL-09 14:47	User Waypoint	N46 03.850 W62 27.329	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:20:08 AM 		
+Waypoint	713	09-JUL-09 14:47	User Waypoint	N46 03.855 W62 27.325	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:20:19 AM 		
+Waypoint	714	09-JUL-09 14:47	User Waypoint	N46 03.860 W62 27.321	4 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:21:54 AM 		
+Waypoint	715	09-JUL-09 14:47	User Waypoint	N46 03.866 W62 27.317	3 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:22:29 AM 		
+Waypoint	716	09-JUL-09 14:58	User Waypoint	N46 03.822 W62 27.259	2 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:28:22 AM 		
+Waypoint	717	09-JUL-09 14:58	User Waypoint	N46 03.826 W62 27.256	2 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:28:30 AM 		
+Waypoint	718	09-JUL-09 14:58	User Waypoint	N46 03.830 W62 27.253	2 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:28:37 AM 		
+Waypoint	719	09-JUL-09 14:58	User Waypoint	N46 03.835 W62 27.250	2 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:28:43 AM 		
+Waypoint	720	09-JUL-09 14:58	User Waypoint	N46 03.839 W62 27.247	1 m				Symbol & Name	Unknown	Flag		Murray Harbour			10/9/2009 9:28:52 AM 		
+Waypoint	721	18.0 ft - 36.1 ft	User Waypoint	N46 06.161 W63 13.508					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:32:54 PM 		
+Waypoint	722	18.0 ft - 36.1 ft	User Waypoint	N46 06.164 W63 13.521					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:32:36 PM 		
+Waypoint	723	18.0 ft - 36.1 ft	User Waypoint	N46 06.164 W63 13.528					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:32:19 PM 		
+Waypoint	724	18.0 ft - 36.1 ft	User Waypoint	N46 06.168 W63 13.538					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:32:00 PM 		
+Waypoint	725	18.0 ft - 36.1 ft	User Waypoint	N46 06.170 W63 13.555					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:31:39 PM 		
+Waypoint	726	18.0 ft - 36.1 ft	User Waypoint	N46 06.176 W63 13.521					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:34:44 PM 		
+Waypoint	727	18.0 ft - 36.1 ft	User Waypoint	N46 06.180 W63 13.550					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:33:40 PM 		
+Waypoint	728	18.0 ft - 36.1 ft	User Waypoint	N46 06.171 W63 13.508					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:35:00 PM 		
+Waypoint	729	18.0 ft - 36.1 ft	User Waypoint	N46 06.174 W63 13.538					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:34:01 PM 		
+Waypoint	730	18.0 ft - 36.1 ft	User Waypoint	N46 06.174 W63 13.528					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:34:23 PM 		
+Waypoint	731	18.0 ft - 36.1 ft	User Waypoint	N46 06.178 W63 13.507					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:37:59 PM 		
+Waypoint	732	18.0 ft - 36.1 ft	User Waypoint	N46 06.186 W63 13.525					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:37:43 PM 		
+Waypoint	733	18.0 ft - 36.1 ft	User Waypoint	N46 06.188 W63 13.540					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:37:22 PM 		
+Waypoint	734	18.0 ft - 36.1 ft	User Waypoint	N46 06.197 W63 13.546					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:37:07 PM 		
+Waypoint	735	18.0 ft - 36.1 ft	User Waypoint	N46 06.197 W63 13.555					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:36:47 PM 		
+Waypoint	736	18.0 ft - 36.1 ft	User Waypoint	N46 06.183 W63 13.507					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:44:01 PM 		
+Waypoint	737	18.0 ft - 36.1 ft	User Waypoint	N46 06.188 W63 13.517					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:43:23 PM 		
+Waypoint	738	18.0 ft - 36.1 ft	User Waypoint	N46 06.200 W63 13.528					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:42:45 PM 		
+Waypoint	739	18.0 ft - 36.1 ft	User Waypoint	N46 06.199 W63 13.540					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:42:27 PM 		
+Waypoint	740	18.0 ft - 36.1 ft	User Waypoint	N46 06.204 W63 13.544					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:41:41 PM 		
+Waypoint	741	18.0 ft - 36.1 ft	User Waypoint	N46 06.208 W63 13.543					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:19:24 PM 		
+Waypoint	742	18.0 ft - 36.1 ft	User Waypoint	N46 06.200 W63 13.525					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:20:23 PM 		
+Waypoint	743	18.0 ft - 36.1 ft	User Waypoint	N46 06.210 W63 13.511					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:18:23 PM 		
+Waypoint	744	18.0 ft - 36.1 ft	User Waypoint	N46 06.195 W63 13.518					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:20:47 PM 		
+Waypoint	745	18.0 ft - 36.1 ft	User Waypoint	N46 06.188 W63 13.505					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:22:58 PM 		
+Waypoint	746	18.0 ft - 36.1 ft	User Waypoint	N46 06.220 W63 13.536					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:16:03 PM 		
+Waypoint	747	18.0 ft - 36.1 ft	User Waypoint	N46 06.215 W63 13.539					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:16:29 PM 		
+Waypoint	748	18.0 ft - 36.1 ft	User Waypoint	N46 06.211 W63 13.538					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:16:59 PM 		
+Waypoint	749	18.0 ft - 36.1 ft	User Waypoint	N46 06.205 W63 13.523					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:17:22 PM 		
+Waypoint	750	18.0 ft - 36.1 ft	User Waypoint	N46 06.193 W63 13.505					Symbol & Name	Unknown	Flag		Nine Mile Creek			9/29/2009 3:17:44 PM 		
+Waypoint	751	17-JUL-09 10:17	User Waypoint	N46 56.533 W64 11.173	8 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:59:29 AM 		
+Waypoint	752	17-JUL-09 10:17	User Waypoint	N46 56.544 W64 11.161	9 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:59:24 AM 		
+Waypoint	753	17-JUL-09 10:17	User Waypoint	N46 56.551 W64 11.149	10 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:59:16 AM 		
+Waypoint	754	17-JUL-09 10:18	User Waypoint	N46 56.557 W64 11.137	10 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:59:09 AM 		
+Waypoint	755	17-JUL-09 10:18	User Waypoint	N46 56.564 W64 11.123	10 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:59:04 AM 		
+Waypoint	756	17-JUL-09 10:22	User Waypoint	N46 56.534 W64 11.190	7 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:58:54 AM 		
+Waypoint	757	17-JUL-09 10:22	User Waypoint	N46 56.542 W64 11.176	7 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:58:46 AM 		
+Waypoint	758	17-JUL-09 10:23	User Waypoint	N46 56.549 W64 11.167	6 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:58:40 AM 		
+Waypoint	759	17-JUL-09 10:23	User Waypoint	N46 56.560 W64 11.153	5 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:58:34 AM 		
+Waypoint	760	17-JUL-09 10:23	User Waypoint	N46 56.570 W64 11.138	5 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:58:28 AM 		
+Waypoint	761	17-JUL-09 10:29	User Waypoint	N46 56.526 W64 11.179	8 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:58:12 AM 		
+Waypoint	762	17-JUL-09 10:29	User Waypoint	N46 56.531 W64 11.167	8 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:58:06 AM 		
+Waypoint	763	17-JUL-09 10:29	User Waypoint	N46 56.537 W64 11.154	7 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:57:57 AM 		
+Waypoint	764	17-JUL-09 10:30	User Waypoint	N46 56.542 W64 11.143	7 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:57:38 AM 		
+Waypoint	765	17-JUL-09 10:30	User Waypoint	N46 56.548 W64 11.133	7 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:57:31 AM 		
+Waypoint	766	17-JUL-09 10:37	User Waypoint	N46 56.540 W64 11.198	6 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:57:09 AM 		
+Waypoint	767	17-JUL-09 10:37	User Waypoint	N46 56.547 W64 11.186	6 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:57:03 AM 		
+Waypoint	768	17-JUL-09 10:37	User Waypoint	N46 56.551 W64 11.179	7 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:56:56 AM 		
+Waypoint	769	17-JUL-09 10:37	User Waypoint	N46 56.557 W64 11.172	7 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:56:50 AM 		
+Waypoint	770	17-JUL-09 10:38	User Waypoint	N46 56.562 W64 11.163	7 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:56:43 AM 		
+Waypoint	771	17-JUL-09 10:46	User Waypoint	N46 56.538 W64 11.216	7 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:56:34 AM 		
+Waypoint	772	17-JUL-09 10:46	User Waypoint	N46 56.544 W64 11.208	7 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:56:26 AM 		
+Waypoint	773	17-JUL-09 10:46	User Waypoint	N46 56.550 W64 11.200	7 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:56:16 AM 		
+Waypoint	774	17-JUL-09 10:46	User Waypoint	N46 56.557 W64 11.190	6 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:56:05 AM 		
+Waypoint	775	17-JUL-09 10:47	User Waypoint	N46 56.564 W64 11.180	7 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:55:57 AM 		
+Waypoint	776	17-JUL-09 10:51	User Waypoint	N46 56.547 W64 11.217	10 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:55:45 AM 		
+Waypoint	777	17-JUL-09 10:51	User Waypoint	N46 56.552 W64 11.208	9 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:55:35 AM 		
+Waypoint	778	17-JUL-09 10:51	User Waypoint	N46 56.557 W64 11.202	9 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:55:25 AM 		
+Waypoint	779	17-JUL-09 10:51	User Waypoint	N46 56.563 W64 11.195	9 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:55:13 AM 		
+Waypoint	780	17-JUL-09 10:51	User Waypoint	N46 56.569 W64 11.188	8 m				Symbol & Name	Unknown	Flag		Skinners Pond			10/21/2009 9:54:48 AM 		
+
