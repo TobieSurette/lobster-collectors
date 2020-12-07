@@ -2,7 +2,7 @@
 vars <- c("year", "site", "collector", "condition", "comment")
 
 # Load lobster larvae collector table:
-x <- read.csv("https://raw.github.com/TobieSurette/lobster-collectors/master/data/raw/129_Collector_Table_08_18.csv", stringsAsFactors = FALSE)
+x <- read.csv("data/raw/129_Collector_Table.csv", header = TRUE, stringsAsFactors = FALSE)
 names(x) <- tolower(names(x))
 
 # Change field names:
@@ -21,7 +21,7 @@ x$condition <- conditions[x$condition]
 # Remove irrelevant fields:
 x <- x[vars]
 
-write.table(x, file = "/Users/crustacean/Desktop/lobster-collectors/data/collector.csv", col.names = TRUE, row.names = FALSE, sep = ",")
+write.table(x, file = "data/collector.csv", col.names = TRUE, row.names = FALSE, sep = ",")
 
 
 
