@@ -1,8 +1,8 @@
 # Define variables to keep in the output:
-vars <- c("year", "site", "longitude", "latitude", "date.deployed", "date.retrieved")
+vars <- c("year", "site", "longitude", "latitude", "date.deployed", "date.retrieved", "comment")
 
 # Load lobster collector site table:
-x <- read.csv("data/raw/129_Site_Table_08_18.csv", header = TRUE, stringsAsFactors = FALSE)
+x <- read.csv("data/raw/129_Site_Table.csv", header = TRUE, stringsAsFactors = FALSE)
 names(x) <- tolower(names(x))
 
 # Change field names:
@@ -32,4 +32,4 @@ y$depth <- NA
           
 output_dir
 
-write.table(x, file = "/Users/crustacean/Desktop/lobster-collectors/data/site.csv", col.names = TRUE, row.names = FALSE, sep = ",")
+write.table(x, file = "data/site.csv", col.names = TRUE, row.names = FALSE, sep = ",")
