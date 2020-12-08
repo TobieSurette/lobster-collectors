@@ -15,38 +15,14 @@ y$sex <- toupper(y$sex)
 y$sex[y$sex == "2"] <- "F"
 y$comment <- y$comments
 
+y$species <- deblank(y$species)
+y$species[is.na(y$species)] <- ""
+
+# Size measurements but no species ID:
+# excel(y[which((y$species == "") & !is.na(y$size)), ])
+
 # Remove irrelevant fields:
 y <- y[vars]
-
-# 
-# # Load 2019 data:
-# x <- read.csv("https://raw.github.com/TobieSurette/lobster-collectors/master/data/raw/Collector%20Data%202019.csv", stringsAsFactors = FALSE)
-# names(x) <- tolower(names(x))
-# 
-# # Create year field:
-# x$year <- 2019
-# 
-# # Variable name corrections:
-# str <- names(x)
-# x$size <- x$size.cl..cw.or.tl
-# x$weight <- NA
-# x$collector <- x$collector.number
-# x$comment  <- x$notes
-# 
-# # Clean up study area field:
-# x$study.area <- gsub("\n", "", x$study.area)
-# 
-# # Clean up sex field:
-# x$sex <- toupper(x$sex)
-# 
-# # Remove empty observations:
-# x <- x[!is.na(x$size) | x$sex != "", ]
-
-# Clean up comments:
-#x$comment <- gsub(",", ";", x$comment)
-# 
-# # Combine data sets:
-# x <- rbind(x[vars], y[vars])
 
 # Output to file:
 write.table(y, file = "data/biological.csv", col.names = TRUE, row.names = FALSE, sep = ",")
