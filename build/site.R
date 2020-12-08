@@ -30,6 +30,6 @@ y <- aggregate(x[c("longitude", "latitude")], by = x["site"], mean, na.rm = TRUE
 y$station <- NA
 y$depth <- NA
           
-output_dir
+#output_dir
 
 write.table(x, file = "data/site.csv", col.names = TRUE, row.names = FALSE, sep = ",")
