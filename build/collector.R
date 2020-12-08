@@ -30,13 +30,14 @@ x$longitude <- NA
 x$latitude <- NA
 
 # Load coordinate data:
+orphans <- list()
 files <- locate(file = "Collector_coordinates")
 for (i in 1:4){
    y <- readLines(files[i])
    y <- strsplit(y, "\t")
    n <- unlist(lapply(y, length))
    t <- table(n)
-   t <- t[as.numeric(names(t)) > 1]
+   t <- t[as.numeric(names(t)) > 5]
    t <- as.numeric(names(t[which.max(t)]))
    y <- y[n == t]
 
@@ -68,6 +69,9 @@ for (i in 1:4){
    names(y) <- gsub(names(y)[j], "date", names(y))
    y$date <- unlist(lapply(strsplit(y$date, " "), function(y) y[1]))
 
+   y$year <- as.numeric(unlist(lapply(strsplit(y$date[1], "-"), function(x) x[3])))
+   y$year[y$year < 100] <- y$year[y$year < 100] + 2000
+   
    # Remove irrelvant fields:
    y <- y[, -grep("^V[0-9]", names(y))]
 
@@ -75,13 +79,19 @@ for (i in 1:4){
    ix <- match(y$collector, x$collector)
    x$longitude[ix[!is.na(ix)]] <- y$longitude[!is.na(ix)]
    x$latitude[ix[!is.na(ix)]] <- y$latitude[!is.na(ix)]
-   #x$site2[ix[!is.na(ix)]] <- y$site[!is.na(ix)]
+   
+   if (any(is.na(ix))){
+      print(y[is.na(ix), ])
+      orphans <- c(orphans, list(y[is.na(ix), ]))
+   } 
+   
+   #print(x$site2[ix[!is.na(ix)]] <- y$site[!is.na(ix)]
 }
 
-for (i in 5:12){
+for (i in 5:length(files)){
    y <- readLines(files[i])
    y <- strsplit(y, "\t")
-   y <- lapply(y, function(x) x[x != ""])
+   y <- lapply(y, function(x) x[deblank(x) != ""])
    n <- unlist(lapply(y, length))
    y <- y[n >= 3]
    
@@ -108,11 +118,21 @@ for (i in 5:12){
    # Print orphan collector data:
    y <- y[c("year", "date",  "collector", "latitude", "longitude")] 
    iy <- is.na(match(y$collector, x$collector[ix]))
-   if (!any(iy)) print(paste("No problem for ", unique(y$year))) else print(y[iy, ])
+   if (any(iy)){
+      print(y[iy, ])
+      orphans <- c(orphans, list(y[iy, ]))
+   } 
    cat("\n")
 }
+
+# Compile orphan coordinate data records:
+orphans <- lapply(orphans, function(x) x[c("year", "collector", "longitude", "latitude")])
+tmp <- NULL
+for (i in 1:length(orphans)) tmp <- rbind(tmp, orphans[[i]])
+orphans <- tmp
 
 # Write to file:
 file <- paste0(strsplit(file, "/raw")[[1]][1], "/collector.csv")
 
 write.table(x, file = file, col.names = TRUE, row.names = FALSE, sep = ",")
+
