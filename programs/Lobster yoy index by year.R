@@ -1,24 +1,37 @@
-library(gulf)
+library(gulf.data)
+library(gulf.graphics)
+library(gulf.spatial)
 
 language <- "french"
 jpeg <- FALSE
 
-# Load data file HERE:
-# read.csv(filename, )
-# data file is assumed to have 'year', 'site' and 'n' fields:
-data <- read.csv("/Users/crustacean/Desktop/lobster-collectors/data/Biological.csv", stringsAsFactors = FALSE)
-names(data) <- tolower(names(data))
-data$n <- data$nyoy
+# Read collector table:
+s <- read.csv(locate(file = "^collector.csv"))
+s <- s[-which(duplicated(s[c("year", "site", "collector")])), ]
 
-# Treat missing values as zero yoy observations:
-data$n[is.na(data$n)] <- 0
+# Read biological data:
+b <- read.csv(locate(file = "^biological.csv"))
+b <- b[b$species == "Homarus americanus", ]
 
-# Site reformats:
-data$site <- gsub("Fortune[12]", "Fortune", data$site) # Combine Fortune sites.
-data$site[data$site %in% c("Skinner's pond", "Skinner's Pond ")] <- "Skinner's Pond"
+# Read yoy cutoff table:
+y <- read.csv(locate(file = "yoy_cutoff.csv"))
+y$site[y$site == "Egmont Bay"] <- "Cape Egmont"
+
+# Determine yoy membership:
+ix <- match(b[c("year", "site")], y[c("year", "site")])
+b$yoy <- as.numeric(b$size <= y$mean[ix])
+
+# Compile yoy table:
+r <- aggregate(b["yoy"], by = b[c("year", "site", "collector")], sum)
+ix <- match(r[c("year", "site", "collector")], s[c("year", "site", "collector")])
+s$n <- 0
+s$n[ix] <- r$yoy
+   
+data <- s
 
 # Keep track of sites in years with no observations:
 zeroes <- aggregate(list(mean = data[,"n"]), by = data[c("site", "year")], mean)
+zeroes$mean[is.na(zeroes$mean)] <- 0
 zeroes <- zeroes[zeroes$mean == 0, ]
 
 # Remove null sites from analysis:
@@ -81,7 +94,7 @@ cols <- c("black", "grey40", "grey70")
 pch <- 21:23
 
 # Define axis labels:
-if (language == "english") xlab <- "Year" else xlab <- "Ann?e"
+if (language == "english") xlab <- "Year" else xlab <- "Année"
 if (language == "english") ylab <- expression(paste("Number per m"^"2")) else ylab <- expression(paste("Nombre par m"^"2"))
 
 xlim <- range(results$year)
@@ -93,25 +106,29 @@ for (i in 1:2){
    grid()
    for (j in 1:length(jj)){
       r <- results[results$site %in% sites[jj][j], ]
-      missing <- setdiff(min(r$year):max(r$year), r$year)
-      if (length(missing) > 0){
-         r <- rbind(r, data.frame(site = r$site[1], year = missing, mean = NA, lower.ci = NA, upper.ci = NA))
-         r <- r[order(r$year), ]
-      }
+      if (nrow(r) > 0){
+         missing <- setdiff(min(r$year):max(r$year), r$year)
+         if (length(missing) > 0){
+            r <- rbind(r, data.frame(site = r$site[1], year = missing, mean = NA, lower.ci = NA, upper.ci = NA))
+            r <- r[order(r$year), ]
+         }
 
-      lines(r$year, r$mean, col = cols[j], lwd = 2, lty = lty[j])
-      for (k in 1:nrow(r)){
-         lines(rep(r$year[k], 2), c(r$lower.ci[k], r$upper.ci[k]), col = cols[j], lty = lty[j], lwd = 2)
-         lines(c(r$year[k] - 0.10, r$year[k] + 0.10), rep(r$lower.ci[k], 2), col = cols[j], lty = lty[j], lwd = 2)
-         lines(c(r$year[k] - 0.10, r$year[k] + 0.10), rep(r$upper.ci[k], 2), col = cols[j], lty = lty[j], lwd = 2)
+         lines(r$year, r$mean, col = cols[j], lwd = 2, lty = lty[j])
+         for (k in 1:nrow(r)){
+            lines(rep(r$year[k], 2), c(r$lower.ci[k], r$upper.ci[k]), col = cols[j], lty = lty[j], lwd = 2)
+            lines(c(r$year[k] - 0.10, r$year[k] + 0.10), rep(r$lower.ci[k], 2), col = cols[j], lty = lty[j], lwd = 2)
+            lines(c(r$year[k] - 0.10, r$year[k] + 0.10), rep(r$upper.ci[k], 2), col = cols[j], lty = lty[j], lwd = 2)
+         }
       }
    }
+
    other <- c("24", "24", "25N", "25S", "26APEI", "26APEI")
 
    str <- sites[jj]
    if (language == "french") str <- gsub("Egmont Bay", "Baie Egmont", str)
 
-   legend("topleft", legend = paste0(str, " (", other[jj], ")"), col = cols[1:length(jj)], lwd = 2, bg = "white", cex = 1.6, lty = lty[1:length(jj)],
+   if (i == 1) pos <-"topleft" else pos <-"topright"
+   legend(pos, legend = paste0(str, " (", other[jj], ")"), col = cols[1:length(jj)], lwd = 2, bg = "white", cex = 1.6, lty = lty[1:length(jj)],
           pch = pch[1:length(jj)], pt.bg = cols[1:length(jj)])
    if (i == 1) at <- seq(0, 35, by = 5)
    if (i == 2) at <- seq(0, 5, by = 1)
