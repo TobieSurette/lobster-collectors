@@ -1,8 +1,8 @@
 library(gulf.utils)
 
 output <- "png" # "png"  # or ""
-language <- "english"
-file <- "sampling summaries/figures/Sampling"
+language <- language("fr")
+file <- "results/figures/sampling summaries/"
 resolution <- 75 # Image resolution ppi
 
 if (language == "english"){
@@ -40,10 +40,11 @@ for (i in 1:length(years)){
 
 # Define julian day for reference dates:
 refdate <- julian(date(year = 2019, month = 6:11, day = 1))
-names(refdate) <- month.name[6:11]
+if (language == "english") names(refdate) <- month.name[6:11]
+if (language == "french") names(refdate) <- c("Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre") 
 
 for (j in 1:length(sites)){
-   if (output == "png") png(filename = paste0(file, " - ", sites[j], "_", lang.str, ".png"), 
+   if (output == "png") png(filename = paste0(file, sites[j], "_", lang.str, ".png"), 
                          width = 6.5, height = 6.5, res = resolution, units = "in")
    par(mar = c(5, 4, 2, 2) + 0.1)
 

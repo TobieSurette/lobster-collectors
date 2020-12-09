@@ -2,12 +2,11 @@ library(gulf.data)
 library(gulf.graphics)
 library(gulf.spatial)
 
-language <- "french"
-jpeg <- FALSE
+language <- language("fr")
+format = "pdf"
 
 # Read collector table:
 s <- read.csv(locate(file = "^collector.csv"))
-s <- s[-which(duplicated(s[c("year", "site", "collector")])), ]
 
 # Read biological data:
 b <- read.csv(locate(file = "^biological.csv"))
@@ -27,7 +26,10 @@ ix <- match(r[c("year", "site", "collector")], s[c("year", "site", "collector")]
 s$n <- 0
 s$n[ix] <- r$yoy
    
-data <- s
+# Spot correction:
+s$condition[is.na(s$condition)] <- "OK"
+
+data <- s[s$condition == "OK", ]
 
 # Keep track of sites in years with no observations:
 zeroes <- aggregate(list(mean = data[,"n"]), by = data[c("site", "year")], mean)
@@ -73,13 +75,10 @@ for (i in 1:length(sites)){
 }
 legend("topleft", legend = sites, col = cols, lwd = 2)
 
-
-if (jpeg){
-   jpeg(filename = paste0("Lobster Yoy Abundance Collector - ", language, ".jpeg"), width = 600 * 8, height = 600 * 8, res = 75 * 8)
-}else{
-   clg()
-   windows(width = 8.5, height = 8.5)
-}
+if (language == "french")  file <- "ALSI Homards juvenile de l'annee"
+if (language == "english") file <- "ALSI yoy Lobster"
+if (format == "jpg") jpeg(file = paste0("results/figures/", file, ".jpeg"), width = 600 * 8, height = 600 * 8, res = 75 * 8)
+if (format == "pdf") pdf(file = paste0("results/figures/", file, ".pdf"), width = 8, height = 8)
 
 m <- kronecker(matrix(1:2, ncol = 1), matrix(1, ncol = 5, nrow = 5))
 m <- rbind(0, cbind(0, m, 0), 0, 0)
@@ -146,4 +145,11 @@ axis(1, at = seq(min(results$year), max(results$year), by = 2), cex.axis = 1.2)
 axis(1, at = seq(min(results$year)+1, max(results$year), by = 2), cex.axis = 1.2)
 mtext(xlab, 1, 3.5, cex = 1.5)
 
-if (jpeg) dev.off()
+if (format != "") dev.off()
+
+results <- sort(results, by = c("site", "year"))
+
+# Write results table:
+if (language == "french") names(results) <- c("site", "année", "moyenne", "int.conf.2.5%", "int.conf.97.5%")
+write.csv(results, file = paste0("results/tables/", file, ".csv"), row.names = FALSE)
+

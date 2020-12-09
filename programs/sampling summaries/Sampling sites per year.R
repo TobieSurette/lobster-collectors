@@ -1,15 +1,15 @@
 library(gulf.utils)
 
 output <- "png"  # or ""
-language <- "english"
+language <- language("en")
 resolution <- 75 # Image resolution ppi
 
 if (language == "english"){
-   file <- "sampling summaries/figures/Sampling sites per year_en"
+   file <- "results/figures/sampling summaries/sampling sites per year"
    xlab <- "Year"
 }
 if (language == "french"){
-   file <- "sampling summaries/figures/Sampling sites per year_fr"
+   file <- "results/figures/sampling summaries/sites d'échantillonage annuels"
    xlab <- "Année"
 }
 x <- read.csv("data/site.csv", header = TRUE, stringsAsFactors = FALSE)
