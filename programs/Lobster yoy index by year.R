@@ -2,7 +2,7 @@ library(gulf.data)
 library(gulf.graphics)
 library(gulf.spatial)
 
-language <- language("fr")
+language <- language("en")
 format = "pdf"
 
 # Read collector table:
@@ -148,6 +148,7 @@ mtext(xlab, 1, 3.5, cex = 1.5)
 if (format != "") dev.off()
 
 results <- sort(results, by = c("site", "year"))
+results[c("mean", "lower.ci", "upper.ci")] <- round(results[c("mean", "lower.ci", "upper.ci")], 3)
 
 # Write results table:
 if (language == "french") names(results) <- c("site", "année", "moyenne", "int.conf.2.5%", "int.conf.97.5%")
