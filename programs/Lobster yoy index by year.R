@@ -8,8 +8,18 @@ format = "pdf"
 # Read collector table:
 s <- read.csv(locate(file = "^collector.csv"))
 
+# Number of collectors per site 
+# by1=s$year
+# by2=s$site
+# s2<-aggregate(s$collector, by=list(by1,by2), length)
+# 
+# ##check if any have more than 30- none should
+# c<-which(s2$x>30)
+# s3<-s2[c,]
+
 # Read biological data:
 b <- read.csv(locate(file = "^biological.csv"))
+
 b <- b[b$species == "Homarus americanus", ]
 
 # Read yoy cutoff table:
