@@ -13,7 +13,7 @@ In the project's inaugural year in 2008, a more detailed protocol was used to id
 Collectors which were misplaced during storms, flipped over or contain silt or sediment accumulated over the sampling season were noted as such.
 ## Other Research Goals
 
-Other than providing local young-of-the-year recruitment estimates for lobster and an index of small rock crab, larval collectors data may provide other information of interest (e.g. presence of invasive species).
+In addition to providing local young-of-the-year recruitment estimates for lobster and an index of small rock crab, larval collectors data may provide other information of interest (e.g. presence of invasive species).
 
 ### Influence of Water Temperature 
 
