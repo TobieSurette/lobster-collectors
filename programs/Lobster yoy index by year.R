@@ -1,6 +1,9 @@
+
+rm(list = ls())
 library(gulf.data)
 library(gulf.graphics)
 library(gulf.spatial)
+library(readxl)
 
 language <- language("en")
 format = "pdf"
@@ -8,11 +11,12 @@ format = "pdf"
 # Read collector table:
 s <- read.csv(locate(file = "^collector.csv"))
 
+
 # Number of collectors per site 
 # by1=s$year
 # by2=s$site
 # s2<-aggregate(s$collector, by=list(by1,by2), length)
-# 
+# outlook:%5C%5CNatalie.Asselin@dfo-mpo.gc.ca%5CSent Items
 # ##check if any have more than 30- none should
 # c<-which(s2$x>30)
 # s3<-s2[c,]
@@ -22,6 +26,11 @@ b <- read.csv(locate(file = "^biological.csv"))
 
 b <- b[b$species == "Homarus americanus", ]
 
+
+##remove NA values for size - useless for this analysis
+xi <- which(!is.na(b$size))
+b <- b[xi,]
+
 # Read yoy cutoff table:
 y <- read.csv(locate(file = "yoy_cutoff.csv"))
 y$site[y$site == "Egmont Bay"] <- "Cape Egmont"
@@ -30,11 +39,24 @@ y$site[y$site == "Egmont Bay"] <- "Cape Egmont"
 ix <- match(b[c("year", "site")], y[c("year", "site")])
 b$yoy <- as.numeric(b$size <= y$mean[ix])
 
+
 # Compile yoy table:
 r <- aggregate(b["yoy"], by = b[c("year", "site", "collector")], sum)
 ix <- match(r[c("year", "site", "collector")], s[c("year", "site", "collector")])
 s$n <- 0
 s$n[ix] <- r$yoy
+
+# Remove deep collectors (not used in this analysis)
+d <-  read_excel(locate(file = "^Deep_collectors.xlsx"))
+d$depth <- "deep" ###include a depth field to use to exclude later
+names(d)[1]<-"year"
+names(d)[2]<-"site"
+names(d)[3]<-"collector"
+
+s2 <- merge(s,d, all.x=TRUE)
+s3 <-  which(is.na(s2$depth))###select the ones that don't have a depth (i.e. are not deep)
+s<-s2[s3,]
+s<-s[,c(1:9)]
    
 # Spot correction:
 s$condition[is.na(s$condition)] <- "OK"
