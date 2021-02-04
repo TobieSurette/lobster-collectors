@@ -11,7 +11,6 @@ format = "pdf"
 # Read collector table:
 s <- read.csv(locate(file = "^collector.csv"))
 
-
 # Number of collectors per site 
 # by1=s$year
 # by2=s$site
@@ -46,18 +45,17 @@ ix <- match(r[c("year", "site", "collector")], s[c("year", "site", "collector")]
 s$n <- 0
 s$n[ix] <- r$yoy
 
-# Remove deep collectors (not used in this analysis)
+# identify deep collector sites
 d <-  read_excel(locate(file = "^Deep_collectors.xlsx"))
 d$depth <- "deep" ###include a depth field to use to exclude later
 names(d)[1]<-"year"
 names(d)[2]<-"site"
 names(d)[3]<-"collector"
 
-s2 <- merge(s,d, all.x=TRUE)
-s3 <-  which(is.na(s2$depth))###select the ones that don't have a depth (i.e. are not deep)
-s<-s2[s3,]
-s<-s[,c(1:9)]
-   
+s <- merge(s,d, all.x=TRUE)
+
+s$site<-ifelse(is.na(s$depth), s$site, paste0(s$site," ", s$depth) )
+
 # Spot correction:
 s$condition[is.na(s$condition)] <- "OK"
 
@@ -87,6 +85,9 @@ results <- data.frame(mean = exp(res$fit),
                       upper.ci = exp(res$fit + 1.96 * res$se.fit))
 results <- cbind(newdata, results / 0.557) # Standardize to one square meter.
 
+
+
+
 # Add zeroes to results:
 zeroes$lower.ci <- 0
 zeroes$upper.ci <- 0
@@ -96,6 +97,37 @@ sites <- unique(results$site)
 cols <- rainbow(length(sites))
 results$year <- as.numeric(as.character(results$year))
 results <- sort(results, by = c("site", "year"))
+
+##add total count YOY per site - PEIFA request
+
+by1=data$year
+by2=data$site
+
+n<-aggregate(data$n, by=list (by1, by2), sum)
+
+names(n)[1]<-"year"
+names(n)[2]<-"site"
+names(n)[3]<-"YOY_count"
+
+n$year <- as.numeric(as.character(n$year))
+
+results<-merge(results,n, by=c('site','year'), all.x=TRUE)
+
+results$YOY_count<-ifelse(is.na(results$YOY_count),0,results$YOY_count)
+
+###add total collectors with "OK" status 
+
+n<-aggregate(data$condition , by=list (by1, by2), length)
+
+names(n)[1]<-"year"
+names(n)[2]<-"site"
+names(n)[3]<-"n_collectors"
+
+n$year <- as.numeric(as.character(n$year))
+
+results<-merge(results,n, by=c('site','year'), all.x=TRUE)
+
+results$n_collectors<-ifelse(is.na(results$n_collectors),0,results$n_collectors)
 
 # Quick plot:
 windows()
