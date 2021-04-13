@@ -6,7 +6,7 @@ library(gulf.spatial)
 library(readxl)
 
 language <- language("en")
-format = "pdf"
+format = "jpg"
 
 # Read collector table:
 s <- read.csv(locate(file = "^collector.csv"))
@@ -61,6 +61,11 @@ s$condition[is.na(s$condition)] <- "OK"
 
 data <- s[s$condition == "OK", ]
 
+# Number of OK condition collectors per site per year
+OK <- aggregate(data$collector, by = data[c("site", "year")], length)
+
+names(OK)[3]<-"n_collectors"
+
 # Keep track of sites in years with no observations:
 zeroes <- aggregate(list(mean = data[,"n"]), by = data[c("site", "year")], mean)
 zeroes$mean[is.na(zeroes$mean)] <- 0
@@ -111,23 +116,15 @@ names(n)[3]<-"YOY_count"
 
 n$year <- as.numeric(as.character(n$year))
 
-results<-merge(results,n, by=c('site','year'), all.x=TRUE)
+results_sum<-merge(results,n, by=c('site','year'), all.x=TRUE)
 
-results$YOY_count<-ifelse(is.na(results$YOY_count),0,results$YOY_count)
+results_sum$YOY_count<-ifelse(is.na(results$YOY_count),0,results$YOY_count)
 
-###add total collectors with "OK" status 
+###add total collectors with "OK" status from above
 
-n<-aggregate(data$condition , by=list (by1, by2), length)
+results_sum<-merge(results_sum,OK, by=c('site','year'), all.x=TRUE)
 
-names(n)[1]<-"year"
-names(n)[2]<-"site"
-names(n)[3]<-"n_collectors"
-
-n$year <- as.numeric(as.character(n$year))
-
-results<-merge(results,n, by=c('site','year'), all.x=TRUE)
-
-results$n_collectors<-ifelse(is.na(results$n_collectors),0,results$n_collectors)
+results_sum$n_collectors<-ifelse(is.na(results_sum$n_collectors),0,results_sum$n_collectors)
 
 # Quick plot:
 windows()
@@ -149,7 +146,7 @@ m <- rbind(0, cbind(0, m, 0), 0, 0)
 layout(m)
 par(mar = c(0,0,0,0))  #   c(bottom, left, top, right)
 
-sites <- c("Alberton", "Covehead", "Skinner's Pond", "Egmont Bay", "Fortune", "Murray Harbour",  "Arisaig", "Neguac", "Nine Mile Creek")
+sites <- c("Alberton", "Covehead", "Skinner's Pond", "Cape Egmont", "Fortune", "Murray Harbour",  "Arisaig", "Neguac", "Nine Mile Creek")
 results$site <- as.character(results$site)
 
 lty <- c("solid", "dashed", "dotted")
@@ -211,10 +208,10 @@ mtext(xlab, 1, 3.5, cex = 1.5)
 
 if (format != "") dev.off()
 
-results <- sort(results, by = c("site", "year"))
-results[c("mean", "lower.ci", "upper.ci")] <- round(results[c("mean", "lower.ci", "upper.ci")], 3)
+results_sum <- sort(results_sum, by = c("site", "year"))
+results_sum[c("mean", "lower.ci", "upper.ci")] <- round(results_sum[c("mean", "lower.ci", "upper.ci")], 3)
 
 # Write results table:
-if (language == "french") names(results) <- c("site", "année", "moyenne", "int.conf.2.5%", "int.conf.97.5%")
-write.csv(results, file = paste0("results/tables/", file, ".csv"), row.names = FALSE)
+if (language == "french") names(results_sum) <- c("site", "année", "moyenne", "int.conf.2.5%", "int.conf.97.5%")
+write.csv(results_sum, file = paste0("results/tables/", file, ".csv"), row.names = FALSE)
 

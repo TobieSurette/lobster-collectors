@@ -17,15 +17,13 @@
 "Arisaig",2011,0.128,0.032,0.513,2,28
 "Arisaig",2012,0.06,0.008,0.425,1,30
 "Arisaig",2013,1.234,0.813,1.875,22,32
-"Bedeque",2008,0,0,0,0,0
 "Cape Egmont",2014,0.18,0.058,0.557,3,30
 "Cape Egmont",2015,0.12,0.03,0.479,2,30
-"Cape Egmont",2016,0,0,0,0,0
+"Cape Egmont",2016,0,0,0,NA,30
 "Cape Egmont",2017,0.12,0.03,0.479,2,30
 "Cape Egmont",2018,0.287,0.108,0.765,4,25
 "Cape Egmont",2019,1.017,0.632,1.637,17,30
 "Cape Egmont",2020,0.299,0.125,0.719,5,30
-"Caraquet",2008,0,0,0,0,0
 "Covehead",2008,0.371,0.167,0.827,6,29
 "Covehead",2009,0.539,0.28,1.035,9,30
 "Covehead",2010,0.532,0.266,1.064,8,27
@@ -51,35 +49,33 @@
 "Fortune",2018,1.017,0.632,1.637,17,30
 "Fortune",2019,0.962,0.58,1.595,15,28
 "Fortune",2020,0.991,0.607,1.617,16,29
-"Fortune deep",2017,0,0,0,0,0
+"Fortune deep",2017,0,0,0,NA,5
 "Fortune deep",2018,0.359,0.051,2.549,1,5
 "Fortune deep",2020,1.346,0.434,4.175,3,4
-"Murray Harbour",2009,0,0,0,0,0
+"Murray Harbour",2009,0,0,0,NA,25
 "Murray Harbour",2010,1.017,0.632,1.637,17,30
-"Murray Harbour",2011,0,0,0,0,0
+"Murray Harbour",2011,0,0,0,NA,26
 "Murray Harbour",2012,0.653,0.245,1.739,4,11
 "Murray Harbour",2014,0.321,0.133,0.77,5,28
-"Murray Harbour",2015,0,0,0,0,0
-"Murray Harbour",2016,0,0,0,0,0
+"Murray Harbour",2015,0,0,0,NA,23
+"Murray Harbour",2016,0,0,0,NA,29
 "Murray Harbour",2017,1.114,0.702,1.769,18,29
 "Murray Harbour",2018,0.898,0.541,1.489,15,30
 "Murray Harbour",2019,0.691,0.287,1.659,5,13
 "Murray Harbour",2020,1.238,0.799,1.919,20,29
 "Neguac",2008,0.539,0.28,1.035,9,30
 "Nine Mile Creek",2009,0.06,0.008,0.425,1,30
-"Nine Mile Creek",2010,0,0,0,0,0
-"Nine Mile Creek",2011,0,0,0,0,0
-"Nine Mile Creek",2012,0,0,0,0,0
-"Nine Mile Creek",2013,0,0,0,0,0
+"Nine Mile Creek",2010,0,0,0,NA,30
+"Nine Mile Creek",2011,0,0,0,NA,27
+"Nine Mile Creek",2012,0,0,0,NA,29
+"Nine Mile Creek",2013,0,0,0,NA,30
 "Nine Mile Creek",2014,0.06,0.008,0.425,1,30
-"Nine Mile Creek",2015,0,0,0,0,0
-"Nine Mile Creek",2016,0,0,0,0,0
-"Nine Mile Creek",2017,0,0,0,0,0
-"Nine Mile Creek",2018,0,0,0,0,0
-"Nine Mile Creek",2019,0,0,0,0,0
-"Nine Mile Creek",2020,0,0,0,0,0
-"Nine Mile Creek deep",2019,0,0,0,0,0
-"Shediac",2008,0,0,0,0,0
+"Nine Mile Creek",2015,0,0,0,NA,28
+"Nine Mile Creek",2016,0,0,0,NA,30
+"Nine Mile Creek",2017,0,0,0,NA,30
+"Nine Mile Creek",2018,0,0,0,NA,28
+"Nine Mile Creek",2019,0,0,0,NA,30
+"Nine Mile Creek",2020,0,0,0,NA,30
 "Skinner's Pond",2009,0.144,0.036,0.574,2,25
 "Skinner's Pond",2010,0.419,0.2,0.879,7,30
 "Skinner's Pond",2011,0.513,0.257,1.026,8,28
@@ -92,6 +88,10 @@
 "Skinner's Pond",2018,21.352,19.177,23.773,333,28
 "Skinner's Pond",2019,9.554,8.137,11.218,149,28
 "Skinner's Pond",2020,4.488,3.579,5.628,75,30
-"Wallace",2017,0,0,0,0,0
-"Wallace",2018,0,0,0,0,0
-"Wallace",2019,0,0,0,0,0
+"Bedeque",2008,0,0,0,NA,30
+"Caraquet",2008,0,0,0,NA,28
+"Shediac",2008,0,0,0,NA,30
+"Wallace",2017,0,0,0,NA,29
+"Wallace",2018,0,0,0,NA,28
+"Wallace",2019,0,0,0,NA,30
+"Nine Mile Creek deep",2019,0,0,0,NA,5
